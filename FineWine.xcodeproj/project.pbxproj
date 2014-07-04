@@ -456,6 +456,7 @@
 				5A2F2C5B1966B35100E80DFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A2F2C5C1966B35100E80DFC /* Build configuration list for PBXNativeTarget "FineWineTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +465,7 @@
 				5A2F2C5E1966B35100E80DFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

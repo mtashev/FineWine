@@ -236,7 +236,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="grapes1" translatesAutoresizingMaskIntoConstraints="NO" id="rkD-ht-ejQ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="glass15" translatesAutoresizingMaskIntoConstraints="NO" id="rkD-ht-ejQ">
                                 <rect key="frame" x="59" y="178" width="32" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -249,7 +249,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="grapes1" translatesAutoresizingMaskIntoConstraints="NO" id="7do-tj-qdB">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="full5" translatesAutoresizingMaskIntoConstraints="NO" id="7do-tj-qdB">
                                 <rect key="frame" x="59" y="223" width="32" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -262,7 +262,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="grapes1" translatesAutoresizingMaskIntoConstraints="NO" id="Dnp-Ra-gDs">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="champagne" translatesAutoresizingMaskIntoConstraints="NO" id="Dnp-Ra-gDs">
                                 <rect key="frame" x="59" y="268" width="32" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -275,7 +275,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="grapes1" translatesAutoresizingMaskIntoConstraints="NO" id="uyw-4P-rFc">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wine26" translatesAutoresizingMaskIntoConstraints="NO" id="uyw-4P-rFc">
                                 <rect key="frame" x="59" y="313" width="32" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -288,7 +288,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="grapes1" translatesAutoresizingMaskIntoConstraints="NO" id="2L3-CM-Jx8">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cocktail11" translatesAutoresizingMaskIntoConstraints="NO" id="2L3-CM-Jx8">
                                 <rect key="frame" x="59" y="358" width="32" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -321,9 +321,13 @@
         </scene>
     </scenes>
     <resources>
+        <image name="champagne" width="32" height="32"/>
         <image name="cobaltBlue" width="640" height="1136"/>
+        <image name="cocktail11" width="32" height="32"/>
         <image name="couple16" width="32" height="36"/>
         <image name="covered16" width="32" height="29"/>
+        <image name="full5" width="32" height="55"/>
+        <image name="glass15" width="32" height="32"/>
         <image name="grapes1" width="32" height="32"/>
         <image name="gray" width="640" height="1136"/>
         <image name="home" width="640" height="1136"/>
@@ -331,6 +335,7 @@
         <image name="pinkAndPurple" width="640" height="1136"/>
         <image name="softPink" width="640" height="1136"/>
         <image name="tealSea" width="640" height="1136"/>
+        <image name="wine26" width="32" height="32"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
