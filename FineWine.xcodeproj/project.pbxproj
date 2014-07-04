@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A2F2C2B1966B35000E80DFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A2F2C2A1966B35000E80DFC /* Foundation.framework */; };
+		5A2F2C2D1966B35000E80DFC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A2F2C2C1966B35000E80DFC /* CoreGraphics.framework */; };
+		5A2F2C2F1966B35000E80DFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A2F2C2E1966B35000E80DFC /* UIKit.framework */; };
+		5A2F2C351966B35000E80DFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A2F2C331966B35000E80DFC /* InfoPlist.strings */; };
+		5A2F2C371966B35000E80DFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F2C361966B35000E80DFC /* main.m */; };
+		5A2F2C3B1966B35000E80DFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F2C3A1966B35000E80DFC /* AppDelegate.m */; };
+		5A2F2C3E1966B35000E80DFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A2F2C3C1966B35000E80DFC /* Main.storyboard */; };
+		5A2F2C411966B35000E80DFC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F2C401966B35000E80DFC /* ViewController.m */; };
+		5A2F2C431966B35000E80DFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A2F2C421966B35000E80DFC /* Images.xcassets */; };
+		5A2F2C4A1966B35100E80DFC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A2F2C491966B35100E80DFC /* XCTest.framework */; };
+		5A2F2C4B1966B35100E80DFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A2F2C2A1966B35000E80DFC /* Foundation.framework */; };
+		5A2F2C4C1966B35100E80DFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A2F2C2E1966B35000E80DFC /* UIKit.framework */; };
+		5A2F2C541966B35100E80DFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A2F2C521966B35100E80DFC /* InfoPlist.strings */; };
+		5A2F2C561966B35100E80DFC /* FineWineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F2C551966B35100E80DFC /* FineWineTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A2F2C4D1966B35100E80DFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A2F2C1F1966B35000E80DFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A2F2C261966B35000E80DFC;
+			remoteInfo = FineWine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A2F2C271966B35000E80DFC /* FineWine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FineWine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A2F2C2A1966B35000E80DFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5A2F2C2C1966B35000E80DFC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5A2F2C2E1966B35000E80DFC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5A2F2C321966B35000E80DFC /* FineWine-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FineWine-Info.plist"; sourceTree = "<group>"; };
+		5A2F2C341966B35000E80DFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5A2F2C361966B35000E80DFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A2F2C381966B35000E80DFC /* FineWine-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FineWine-Prefix.pch"; sourceTree = "<group>"; };
+		5A2F2C391966B35000E80DFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A2F2C3A1966B35000E80DFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A2F2C3D1966B35000E80DFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A2F2C3F1966B35000E80DFC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5A2F2C401966B35000E80DFC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5A2F2C421966B35000E80DFC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5A2F2C481966B35100E80DFC /* FineWineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FineWineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A2F2C491966B35100E80DFC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5A2F2C511966B35100E80DFC /* FineWineTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FineWineTests-Info.plist"; sourceTree = "<group>"; };
+		5A2F2C531966B35100E80DFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5A2F2C551966B35100E80DFC /* FineWineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FineWineTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A2F2C241966B35000E80DFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A2F2C2D1966B35000E80DFC /* CoreGraphics.framework in Frameworks */,
+				5A2F2C2F1966B35000E80DFC /* UIKit.framework in Frameworks */,
+				5A2F2C2B1966B35000E80DFC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A2F2C451966B35100E80DFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A2F2C4A1966B35100E80DFC /* XCTest.framework in Frameworks */,
+				5A2F2C4C1966B35100E80DFC /* UIKit.framework in Frameworks */,
+				5A2F2C4B1966B35100E80DFC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A2F2C1E1966B35000E80DFC = {
+			isa = PBXGroup;
+			children = (
+				5A2F2C301966B35000E80DFC /* FineWine */,
+				5A2F2C4F1966B35100E80DFC /* FineWineTests */,
+				5A2F2C291966B35000E80DFC /* Frameworks */,
+				5A2F2C281966B35000E80DFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A2F2C281966B35000E80DFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A2F2C271966B35000E80DFC /* FineWine.app */,
+				5A2F2C481966B35100E80DFC /* FineWineTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A2F2C291966B35000E80DFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A2F2C2A1966B35000E80DFC /* Foundation.framework */,
+				5A2F2C2C1966B35000E80DFC /* CoreGraphics.framework */,
+				5A2F2C2E1966B35000E80DFC /* UIKit.framework */,
+				5A2F2C491966B35100E80DFC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A2F2C301966B35000E80DFC /* FineWine */ = {
+			isa = PBXGroup;
+			children = (
+				5A2F2C391966B35000E80DFC /* AppDelegate.h */,
+				5A2F2C3A1966B35000E80DFC /* AppDelegate.m */,
+				5A2F2C3C1966B35000E80DFC /* Main.storyboard */,
+				5A2F2C3F1966B35000E80DFC /* ViewController.h */,
+				5A2F2C401966B35000E80DFC /* ViewController.m */,
+				5A2F2C421966B35000E80DFC /* Images.xcassets */,
+				5A2F2C311966B35000E80DFC /* Supporting Files */,
+			);
+			path = FineWine;
+			sourceTree = "<group>";
+		};
+		5A2F2C311966B35000E80DFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A2F2C321966B35000E80DFC /* FineWine-Info.plist */,
+				5A2F2C331966B35000E80DFC /* InfoPlist.strings */,
+				5A2F2C361966B35000E80DFC /* main.m */,
+				5A2F2C381966B35000E80DFC /* FineWine-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A2F2C4F1966B35100E80DFC /* FineWineTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A2F2C551966B35100E80DFC /* FineWineTests.m */,
+				5A2F2C501966B35100E80DFC /* Supporting Files */,
+			);
+			path = FineWineTests;
+			sourceTree = "<group>";
+		};
+		5A2F2C501966B35100E80DFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A2F2C511966B35100E80DFC /* FineWineTests-Info.plist */,
+				5A2F2C521966B35100E80DFC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A2F2C261966B35000E80DFC /* FineWine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A2F2C591966B35100E80DFC /* Build configuration list for PBXNativeTarget "FineWine" */;
+			buildPhases = (
+				5A2F2C231966B35000E80DFC /* Sources */,
+				5A2F2C241966B35000E80DFC /* Frameworks */,
+				5A2F2C251966B35000E80DFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FineWine;
+			productName = FineWine;
+			productReference = 5A2F2C271966B35000E80DFC /* FineWine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A2F2C471966B35100E80DFC /* FineWineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A2F2C5C1966B35100E80DFC /* Build configuration list for PBXNativeTarget "FineWineTests" */;
+			buildPhases = (
+				5A2F2C441966B35100E80DFC /* Sources */,
+				5A2F2C451966B35100E80DFC /* Frameworks */,
+				5A2F2C461966B35100E80DFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A2F2C4E1966B35100E80DFC /* PBXTargetDependency */,
+			);
+			name = FineWineTests;
+			productName = FineWineTests;
+			productReference = 5A2F2C481966B35100E80DFC /* FineWineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A2F2C1F1966B35000E80DFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Mariyan Tashev";
+				TargetAttributes = {
+					5A2F2C471966B35100E80DFC = {
+						TestTargetID = 5A2F2C261966B35000E80DFC;
+					};
+				};
+			};
+			buildConfigurationList = 5A2F2C221966B35000E80DFC /* Build configuration list for PBXProject "FineWine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A2F2C1E1966B35000E80DFC;
+			productRefGroup = 5A2F2C281966B35000E80DFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A2F2C261966B35000E80DFC /* FineWine */,
+				5A2F2C471966B35100E80DFC /* FineWineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A2F2C251966B35000E80DFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A2F2C431966B35000E80DFC /* Images.xcassets in Resources */,
+				5A2F2C351966B35000E80DFC /* InfoPlist.strings in Resources */,
+				5A2F2C3E1966B35000E80DFC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A2F2C461966B35100E80DFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A2F2C541966B35100E80DFC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A2F2C231966B35000E80DFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A2F2C411966B35000E80DFC /* ViewController.m in Sources */,
+				5A2F2C3B1966B35000E80DFC /* AppDelegate.m in Sources */,
+				5A2F2C371966B35000E80DFC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A2F2C441966B35100E80DFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A2F2C561966B35100E80DFC /* FineWineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A2F2C4E1966B35100E80DFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A2F2C261966B35000E80DFC /* FineWine */;
+			targetProxy = 5A2F2C4D1966B35100E80DFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A2F2C331966B35000E80DFC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A2F2C341966B35000E80DFC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5A2F2C3C1966B35000E80DFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A2F2C3D1966B35000E80DFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A2F2C521966B35100E80DFC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A2F2C531966B35100E80DFC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A2F2C571966B35100E80DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A2F2C581966B35100E80DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A2F2C5A1966B35100E80DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FineWine/FineWine-Prefix.pch";
+				INFOPLIST_FILE = "FineWine/FineWine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5A2F2C5B1966B35100E80DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FineWine/FineWine-Prefix.pch";
+				INFOPLIST_FILE = "FineWine/FineWine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5A2F2C5D1966B35100E80DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FineWine.app/FineWine";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FineWine/FineWine-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FineWineTests/FineWineTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5A2F2C5E1966B35100E80DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FineWine.app/FineWine";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FineWine/FineWine-Prefix.pch";
+				INFOPLIST_FILE = "FineWineTests/FineWineTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A2F2C221966B35000E80DFC /* Build configuration list for PBXProject "FineWine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A2F2C571966B35100E80DFC /* Debug */,
+				5A2F2C581966B35100E80DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A2F2C591966B35100E80DFC /* Build configuration list for PBXNativeTarget "FineWine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A2F2C5A1966B35100E80DFC /* Debug */,
+				5A2F2C5B1966B35100E80DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A2F2C5C1966B35100E80DFC /* Build configuration list for PBXNativeTarget "FineWineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A2F2C5D1966B35100E80DFC /* Debug */,
+				5A2F2C5E1966B35100E80DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A2F2C1F1966B35000E80DFC /* Project object */;
+}
