@@ -40,6 +40,9 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="RHQ-kf-g8l" kind="push" id="XsY-Dt-gJj"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qzw-Ue-wCd">
                                 <rect key="frame" x="20" y="332" width="280" height="42"/>
@@ -49,6 +52,9 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="jHi-me-2bH" kind="push" id="tNB-tL-2ks"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Rd-cT-4r7">
                                 <rect key="frame" x="20" y="289" width="280" height="42"/>
@@ -58,6 +64,9 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="J3m-Oq-Pzs" kind="push" id="ABL-5r-UQF"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l1d-yd-Oec">
                                 <rect key="frame" x="139" y="433" width="42" height="30"/>
@@ -66,6 +75,9 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Y9i-xG-QRR" kind="push" id="nKb-iq-ygu"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="grapes1" translatesAutoresizingMaskIntoConstraints="NO" id="Koq-tT-0FF">
                                 <rect key="frame" x="39" y="199" width="32" height="32"/>
@@ -97,7 +109,107 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-596" y="48"/>
+            <point key="canvasLocation" x="-3140" y="356"/>
+        </scene>
+        <!--View Controller - My wines-->
+        <scene sceneID="AR0-Sq-ByZ">
+            <objects>
+                <viewController id="J3m-Oq-Pzs" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OjZ-62-oww"/>
+                        <viewControllerLayoutGuide type="bottom" id="PUK-cd-Jfv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JWq-WY-lhz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cobaltBlue" translatesAutoresizingMaskIntoConstraints="NO" id="Fh8-dP-TTo">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="My wines" id="7uN-D4-8YI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i1K-Ce-c5N" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2540" y="581"/>
+        </scene>
+        <!--View Controller - About-->
+        <scene sceneID="yBG-nq-1UO">
+            <objects>
+                <viewController id="Y9i-xG-QRR" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="63e-SL-b9b"/>
+                        <viewControllerLayoutGuide type="bottom" id="ui4-v4-Be2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QwN-3w-Vye">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gray" translatesAutoresizingMaskIntoConstraints="NO" id="n14-yn-5l9">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="About" id="gOb-gP-Kzu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EeJ-i0-TCP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3068" y="1099"/>
+        </scene>
+        <!--View Controller - Tips-->
+        <scene sceneID="pEC-Mh-WKg">
+            <objects>
+                <viewController id="jHi-me-2bH" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Qwm-7a-20x"/>
+                        <viewControllerLayoutGuide type="bottom" id="dvR-PM-33w"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oQH-Gm-Miy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="softPink" translatesAutoresizingMaskIntoConstraints="NO" id="i5V-wh-a8O">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Tips" id="cMa-v4-41t"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Y3-Xg-z5c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2540" y="1279"/>
+        </scene>
+        <!--View Controller - Pair with food-->
+        <scene sceneID="iNl-OT-q7i">
+            <objects>
+                <viewController id="RHQ-kf-g8l" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Yib-dB-7tF"/>
+                        <viewControllerLayoutGuide type="bottom" id="XTo-fQ-bGy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CN3-ja-Dtj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tealSea" translatesAutoresizingMaskIntoConstraints="NO" id="wsP-ZL-ZdR">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Pair with food" id="0NZ-OD-ezM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QyD-y1-UGS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2540" y="-133"/>
         </scene>
         <!--View Controller - Type-->
         <scene sceneID="wVh-Lo-oet">
@@ -187,7 +299,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fmE-oO-3sB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-187" y="-370"/>
+            <point key="canvasLocation" x="-2540" y="-825"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="V3C-4X-vZ5">
@@ -205,16 +317,20 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7CC-5j-1q1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-993" y="48"/>
+            <point key="canvasLocation" x="-3537" y="356"/>
         </scene>
     </scenes>
     <resources>
+        <image name="cobaltBlue" width="640" height="1136"/>
         <image name="couple16" width="32" height="36"/>
         <image name="covered16" width="32" height="29"/>
         <image name="grapes1" width="32" height="32"/>
+        <image name="gray" width="640" height="1136"/>
         <image name="home" width="640" height="1136"/>
         <image name="party1" width="32" height="35"/>
         <image name="pinkAndPurple" width="640" height="1136"/>
+        <image name="softPink" width="640" height="1136"/>
+        <image name="tealSea" width="640" height="1136"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
