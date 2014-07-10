@@ -23,6 +23,16 @@
 		5A2F2C561966B35100E80DFC /* FineWineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F2C551966B35100E80DFC /* FineWineTests.m */; };
 		5AE410CC196EBF6D0082A127 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE410CB196EBF6D0082A127 /* CoreData.framework */; };
 		5AE410CF196EBF890082A127 /* FineWine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5AE410CD196EBF890082A127 /* FineWine.xcdatamodeld */; };
+		5AE410D2196EC1D30082A127 /* RedWineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE410D1196EC1D30082A127 /* RedWineVC.m */; };
+		5AE410D5196EC2180082A127 /* WhiteWineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE410D4196EC2180082A127 /* WhiteWineVC.m */; };
+		5AE410D8196EC2260082A127 /* RoseWineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE410D7196EC2260082A127 /* RoseWineVC.m */; };
+		5AE410DB196EC2370082A127 /* SparklingWineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE410DA196EC2370082A127 /* SparklingWineVC.m */; };
+		5AE410DE196EC25A0082A127 /* DessertWineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE410DD196EC25A0082A127 /* DessertWineVC.m */; };
+		5AE410E7196EC3AD0082A127 /* RedWineDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE410E6196EC3AD0082A127 /* RedWineDetailVC.m */; };
+		5AE410EA196EC3BA0082A127 /* WhiteWineDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE410E9196EC3BA0082A127 /* WhiteWineDetailVC.m */; };
+		5AE410ED196EC3C80082A127 /* RoseWineDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE410EC196EC3C80082A127 /* RoseWineDetailVC.m */; };
+		5AE410F0196EC3D90082A127 /* SparklingWineDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE410EF196EC3D90082A127 /* SparklingWineDetailVC.m */; };
+		5AE410F3196EC3F70082A127 /* DessertWineDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE410F2196EC3F70082A127 /* DessertWineDetailVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +67,26 @@
 		5A2F2C551966B35100E80DFC /* FineWineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FineWineTests.m; sourceTree = "<group>"; };
 		5AE410CB196EBF6D0082A127 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		5AE410CE196EBF890082A127 /* FineWine.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FineWine.xcdatamodel; sourceTree = "<group>"; };
+		5AE410D0196EC1D30082A127 /* RedWineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedWineVC.h; sourceTree = "<group>"; };
+		5AE410D1196EC1D30082A127 /* RedWineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedWineVC.m; sourceTree = "<group>"; };
+		5AE410D3196EC2180082A127 /* WhiteWineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiteWineVC.h; sourceTree = "<group>"; };
+		5AE410D4196EC2180082A127 /* WhiteWineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiteWineVC.m; sourceTree = "<group>"; };
+		5AE410D6196EC2260082A127 /* RoseWineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoseWineVC.h; sourceTree = "<group>"; };
+		5AE410D7196EC2260082A127 /* RoseWineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoseWineVC.m; sourceTree = "<group>"; };
+		5AE410D9196EC2370082A127 /* SparklingWineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SparklingWineVC.h; path = ../SparklingWineVC.h; sourceTree = "<group>"; };
+		5AE410DA196EC2370082A127 /* SparklingWineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SparklingWineVC.m; path = ../SparklingWineVC.m; sourceTree = "<group>"; };
+		5AE410DC196EC25A0082A127 /* DessertWineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DessertWineVC.h; sourceTree = "<group>"; };
+		5AE410DD196EC25A0082A127 /* DessertWineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DessertWineVC.m; sourceTree = "<group>"; };
+		5AE410E5196EC3AD0082A127 /* RedWineDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedWineDetailVC.h; sourceTree = "<group>"; };
+		5AE410E6196EC3AD0082A127 /* RedWineDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedWineDetailVC.m; sourceTree = "<group>"; };
+		5AE410E8196EC3BA0082A127 /* WhiteWineDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiteWineDetailVC.h; sourceTree = "<group>"; };
+		5AE410E9196EC3BA0082A127 /* WhiteWineDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiteWineDetailVC.m; sourceTree = "<group>"; };
+		5AE410EB196EC3C80082A127 /* RoseWineDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoseWineDetailVC.h; sourceTree = "<group>"; };
+		5AE410EC196EC3C80082A127 /* RoseWineDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoseWineDetailVC.m; sourceTree = "<group>"; };
+		5AE410EE196EC3D90082A127 /* SparklingWineDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SparklingWineDetailVC.h; sourceTree = "<group>"; };
+		5AE410EF196EC3D90082A127 /* SparklingWineDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SparklingWineDetailVC.m; sourceTree = "<group>"; };
+		5AE410F1196EC3F70082A127 /* DessertWineDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DessertWineDetailVC.h; sourceTree = "<group>"; };
+		5AE410F2196EC3F70082A127 /* DessertWineDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DessertWineDetailVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,12 +148,13 @@
 		5A2F2C301966B35000E80DFC /* FineWine */ = {
 			isa = PBXGroup;
 			children = (
+				5AE410E1196EC31D0082A127 /* Model */,
+				5AE410DF196EC2F40082A127 /* Controllers */,
 				5A2F2C391966B35000E80DFC /* AppDelegate.h */,
 				5A2F2C3A1966B35000E80DFC /* AppDelegate.m */,
 				5A2F2C3C1966B35000E80DFC /* Main.storyboard */,
 				5A2F2C3F1966B35000E80DFC /* ViewController.h */,
 				5A2F2C401966B35000E80DFC /* ViewController.m */,
-				5AE410CD196EBF890082A127 /* FineWine.xcdatamodeld */,
 				5A2F2C421966B35000E80DFC /* Images.xcassets */,
 				5A2F2C311966B35000E80DFC /* Supporting Files */,
 			);
@@ -157,6 +188,49 @@
 				5A2F2C521966B35100E80DFC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5AE410DF196EC2F40082A127 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5AE410F4196EC5380082A127 /* Type */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		5AE410E1196EC31D0082A127 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5AE410CD196EBF890082A127 /* FineWine.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5AE410F4196EC5380082A127 /* Type */ = {
+			isa = PBXGroup;
+			children = (
+				5AE410D0196EC1D30082A127 /* RedWineVC.h */,
+				5AE410D1196EC1D30082A127 /* RedWineVC.m */,
+				5AE410D3196EC2180082A127 /* WhiteWineVC.h */,
+				5AE410D4196EC2180082A127 /* WhiteWineVC.m */,
+				5AE410D6196EC2260082A127 /* RoseWineVC.h */,
+				5AE410D7196EC2260082A127 /* RoseWineVC.m */,
+				5AE410D9196EC2370082A127 /* SparklingWineVC.h */,
+				5AE410DA196EC2370082A127 /* SparklingWineVC.m */,
+				5AE410DC196EC25A0082A127 /* DessertWineVC.h */,
+				5AE410DD196EC25A0082A127 /* DessertWineVC.m */,
+				5AE410E5196EC3AD0082A127 /* RedWineDetailVC.h */,
+				5AE410E6196EC3AD0082A127 /* RedWineDetailVC.m */,
+				5AE410E8196EC3BA0082A127 /* WhiteWineDetailVC.h */,
+				5AE410E9196EC3BA0082A127 /* WhiteWineDetailVC.m */,
+				5AE410EB196EC3C80082A127 /* RoseWineDetailVC.h */,
+				5AE410EC196EC3C80082A127 /* RoseWineDetailVC.m */,
+				5AE410EE196EC3D90082A127 /* SparklingWineDetailVC.h */,
+				5AE410EF196EC3D90082A127 /* SparklingWineDetailVC.m */,
+				5AE410F1196EC3F70082A127 /* DessertWineDetailVC.h */,
+				5AE410F2196EC3F70082A127 /* DessertWineDetailVC.m */,
+			);
+			name = Type;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +332,18 @@
 			files = (
 				5A2F2C411966B35000E80DFC /* ViewController.m in Sources */,
 				5A2F2C3B1966B35000E80DFC /* AppDelegate.m in Sources */,
+				5AE410D2196EC1D30082A127 /* RedWineVC.m in Sources */,
+				5AE410DE196EC25A0082A127 /* DessertWineVC.m in Sources */,
+				5AE410E7196EC3AD0082A127 /* RedWineDetailVC.m in Sources */,
+				5AE410F3196EC3F70082A127 /* DessertWineDetailVC.m in Sources */,
+				5AE410EA196EC3BA0082A127 /* WhiteWineDetailVC.m in Sources */,
+				5AE410DB196EC2370082A127 /* SparklingWineVC.m in Sources */,
+				5AE410D5196EC2180082A127 /* WhiteWineVC.m in Sources */,
+				5AE410D8196EC2260082A127 /* RoseWineVC.m in Sources */,
+				5AE410ED196EC3C80082A127 /* RoseWineDetailVC.m in Sources */,
 				5AE410CF196EBF890082A127 /* FineWine.xcdatamodeld in Sources */,
 				5A2F2C371966B35000E80DFC /* main.m in Sources */,
+				5AE410F0196EC3D90082A127 /* SparklingWineDetailVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
