@@ -36,10 +36,10 @@
         <attribute name="temp" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="RedWine" positionX="-9" positionY="36" width="128" height="118"/>
-        <element name="WhiteWine" positionX="-9" positionY="36" width="128" height="118"/>
-        <element name="RoseWine" positionX="0" positionY="45" width="128" height="118"/>
-        <element name="DessertWine" positionX="18" positionY="63" width="128" height="118"/>
-        <element name="SparklingWine" positionX="36" positionY="81" width="128" height="118"/>
+        <element name="RedWine" positionX="-90" positionY="54" width="128" height="118"/>
+        <element name="WhiteWine" positionX="-369" positionY="-27" width="128" height="118"/>
+        <element name="RoseWine" positionX="-63" positionY="-108" width="128" height="118"/>
+        <element name="DessertWine" positionX="-243" positionY="-172" width="128" height="118"/>
+        <element name="SparklingWine" positionX="-252" positionY="126" width="128" height="118"/>
     </elements>
 </model>
