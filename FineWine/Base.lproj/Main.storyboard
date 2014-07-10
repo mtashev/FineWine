@@ -211,10 +211,10 @@
             </objects>
             <point key="canvasLocation" x="-4356" y="-441"/>
         </scene>
-        <!--Table View Controller - Dessert wines-->
+        <!--Dessert WineVC - Dessert wines-->
         <scene sceneID="uOv-Fb-CWf">
             <objects>
-                <tableViewController id="21p-7d-Vle" sceneMemberID="viewController">
+                <tableViewController id="21p-7d-Vle" customClass="DessertWineVC" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="rWZ-Nl-BNj">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -243,10 +243,10 @@
             </objects>
             <point key="canvasLocation" x="-2806" y="-1207"/>
         </scene>
-        <!--Table View Controller - Sparkling wines-->
+        <!--Sparkling WineVC - Sparkling wines-->
         <scene sceneID="nwh-E6-Fpr">
             <objects>
-                <tableViewController id="0ez-KN-xdB" sceneMemberID="viewController">
+                <tableViewController id="0ez-KN-xdB" customClass="SparklingWineVC" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="LeD-yL-0DT">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -275,10 +275,10 @@
             </objects>
             <point key="canvasLocation" x="-2000" y="-1845"/>
         </scene>
-        <!--View Controller - Details-->
+        <!--Sparkling Wine DetailVC - Details-->
         <scene sceneID="bJv-cs-oV2">
             <objects>
-                <viewController id="8vH-UY-kLK" sceneMemberID="viewController">
+                <viewController id="8vH-UY-kLK" customClass="SparklingWineDetailVC" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9YC-5M-dJp"/>
                         <viewControllerLayoutGuide type="bottom" id="rR3-zR-l3Y"/>
@@ -294,10 +294,10 @@
             </objects>
             <point key="canvasLocation" x="-1621" y="-1845"/>
         </scene>
-        <!--View Controller - Details-->
+        <!--Dessert Wine DetailVC - Details-->
         <scene sceneID="4ow-Up-PL4">
             <objects>
-                <viewController id="0Cr-gM-LaU" sceneMemberID="viewController">
+                <viewController id="0Cr-gM-LaU" customClass="DessertWineDetailVC" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="h3W-vP-VQJ"/>
                         <viewControllerLayoutGuide type="bottom" id="uxX-5D-DKL"/>
@@ -313,10 +313,10 @@
             </objects>
             <point key="canvasLocation" x="-2407" y="-1207"/>
         </scene>
-        <!--Table View Controller - Rose wines-->
+        <!--Rose WineVC - Rose wines-->
         <scene sceneID="Vb5-Bh-0yb">
             <objects>
-                <tableViewController id="Cdo-iI-yJM" sceneMemberID="viewController">
+                <tableViewController id="Cdo-iI-yJM" customClass="RoseWineVC" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Iqf-EF-Bxa">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -345,10 +345,10 @@
             </objects>
             <point key="canvasLocation" x="-2995" y="-2267"/>
         </scene>
-        <!--View Controller - Details-->
+        <!--Rose Wine DetailVC - Details-->
         <scene sceneID="QpL-bn-IN5">
             <objects>
-                <viewController id="Egc-dx-B0u" sceneMemberID="viewController">
+                <viewController id="Egc-dx-B0u" customClass="RoseWineDetailVC" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="FBQ-xj-F5z"/>
                         <viewControllerLayoutGuide type="bottom" id="ZCJ-V0-aiH"/>
@@ -501,10 +501,10 @@
             </objects>
             <point key="canvasLocation" x="-3892" y="-2153"/>
         </scene>
-        <!--Table View Controller - White wines-->
+        <!--White WineVC - White wines-->
         <scene sceneID="UVB-aq-EUZ">
             <objects>
-                <tableViewController id="j42-V9-ga1" sceneMemberID="viewController">
+                <tableViewController id="j42-V9-ga1" customClass="WhiteWineVC" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="BT9-k5-vFM">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -533,10 +533,10 @@
             </objects>
             <point key="canvasLocation" x="-3847" y="-1341"/>
         </scene>
-        <!--View Controller - Details-->
+        <!--White Wine DetailVC - Details-->
         <scene sceneID="nwx-Ri-yM2">
             <objects>
-                <viewController id="G1W-oV-38Y" sceneMemberID="viewController">
+                <viewController id="G1W-oV-38Y" customClass="WhiteWineDetailVC" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cIS-lG-JAS"/>
                         <viewControllerLayoutGuide type="bottom" id="mor-xY-7iq"/>
@@ -552,10 +552,10 @@
             </objects>
             <point key="canvasLocation" x="-3460" y="-1341"/>
         </scene>
-        <!--View Controller - Details-->
+        <!--Red Wine DetailVC - Details-->
         <scene sceneID="32Q-V7-VcC">
             <objects>
-                <viewController id="6R2-uv-dKi" sceneMemberID="viewController">
+                <viewController id="6R2-uv-dKi" customClass="RedWineDetailVC" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3fI-R6-FY6"/>
                         <viewControllerLayoutGuide type="bottom" id="d0W-Fx-J65"/>
