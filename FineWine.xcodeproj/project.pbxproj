@@ -21,6 +21,8 @@
 		5A2F2C4C1966B35100E80DFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A2F2C2E1966B35000E80DFC /* UIKit.framework */; };
 		5A2F2C541966B35100E80DFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A2F2C521966B35100E80DFC /* InfoPlist.strings */; };
 		5A2F2C561966B35100E80DFC /* FineWineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F2C551966B35100E80DFC /* FineWineTests.m */; };
+		5AE410CC196EBF6D0082A127 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE410CB196EBF6D0082A127 /* CoreData.framework */; };
+		5AE410CF196EBF890082A127 /* FineWine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5AE410CD196EBF890082A127 /* FineWine.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		5A2F2C511966B35100E80DFC /* FineWineTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FineWineTests-Info.plist"; sourceTree = "<group>"; };
 		5A2F2C531966B35100E80DFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5A2F2C551966B35100E80DFC /* FineWineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FineWineTests.m; sourceTree = "<group>"; };
+		5AE410CB196EBF6D0082A127 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5AE410CE196EBF890082A127 /* FineWine.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FineWine.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AE410CC196EBF6D0082A127 /* CoreData.framework in Frameworks */,
 				5A2F2C2D1966B35000E80DFC /* CoreGraphics.framework in Frameworks */,
 				5A2F2C2F1966B35000E80DFC /* UIKit.framework in Frameworks */,
 				5A2F2C2B1966B35000E80DFC /* Foundation.framework in Frameworks */,
@@ -101,6 +106,7 @@
 		5A2F2C291966B35000E80DFC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5AE410CB196EBF6D0082A127 /* CoreData.framework */,
 				5A2F2C2A1966B35000E80DFC /* Foundation.framework */,
 				5A2F2C2C1966B35000E80DFC /* CoreGraphics.framework */,
 				5A2F2C2E1966B35000E80DFC /* UIKit.framework */,
@@ -117,6 +123,7 @@
 				5A2F2C3C1966B35000E80DFC /* Main.storyboard */,
 				5A2F2C3F1966B35000E80DFC /* ViewController.h */,
 				5A2F2C401966B35000E80DFC /* ViewController.m */,
+				5AE410CD196EBF890082A127 /* FineWine.xcdatamodeld */,
 				5A2F2C421966B35000E80DFC /* Images.xcassets */,
 				5A2F2C311966B35000E80DFC /* Supporting Files */,
 			);
@@ -251,6 +258,7 @@
 			files = (
 				5A2F2C411966B35000E80DFC /* ViewController.m in Sources */,
 				5A2F2C3B1966B35000E80DFC /* AppDelegate.m in Sources */,
+				5AE410CF196EBF890082A127 /* FineWine.xcdatamodeld in Sources */,
 				5A2F2C371966B35000E80DFC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -468,6 +476,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5AE410CD196EBF890082A127 /* FineWine.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5AE410CE196EBF890082A127 /* FineWine.xcdatamodel */,
+			);
+			currentVersion = 5AE410CE196EBF890082A127 /* FineWine.xcdatamodel */;
+			path = FineWine.xcdatamodeld;
+			sourceTree = SOURCE_ROOT;
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 5A2F2C1F1966B35000E80DFC /* Project object */;
 }
