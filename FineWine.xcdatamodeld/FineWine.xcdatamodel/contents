@@ -1,45 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13E28" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
-    <entity name="DessertWine" syncable="YES">
+    <entity name="Wine" syncable="YES">
+        <attribute name="details" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="food" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>
-        <attribute name="info" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="temp" optional="YES" attributeType="String" syncable="YES"/>
-    </entity>
-    <entity name="RedWine" syncable="YES">
-        <attribute name="food" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>
-        <attribute name="info" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="temp" optional="YES" attributeType="String" syncable="YES"/>
-    </entity>
-    <entity name="RoseWine" syncable="YES">
-        <attribute name="food" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>
-        <attribute name="info" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="temp" optional="YES" attributeType="String" syncable="YES"/>
-    </entity>
-    <entity name="SparklingWine" syncable="YES">
-        <attribute name="food" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>
-        <attribute name="info" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="temp" optional="YES" attributeType="String" syncable="YES"/>
-    </entity>
-    <entity name="WhiteWine" syncable="YES">
-        <attribute name="food" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>
-        <attribute name="info" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="temp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="temperature" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="RedWine" positionX="-90" positionY="54" width="128" height="118"/>
-        <element name="WhiteWine" positionX="-369" positionY="-27" width="128" height="118"/>
-        <element name="RoseWine" positionX="-63" positionY="-108" width="128" height="118"/>
-        <element name="DessertWine" positionX="-243" positionY="-172" width="128" height="118"/>
-        <element name="SparklingWine" positionX="-252" positionY="126" width="128" height="118"/>
+        <element name="Wine" positionX="-63" positionY="-18" width="128" height="135"/>
     </elements>
 </model>
