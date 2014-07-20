@@ -47,7 +47,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *cellIdentifier = @"Cell";
+    static NSString *cellIdentifier = @"CustomCell";
 	
     CustomTableCell *cell = (CustomTableCell *)[tableView dequeueReusableCellWithIdentifier:cellIdentifier];
 	//UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
