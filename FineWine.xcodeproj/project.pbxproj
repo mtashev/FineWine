@@ -23,7 +23,6 @@
 		5AE410CC196EBF6D0082A127 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE410CB196EBF6D0082A127 /* CoreData.framework */; };
 		5AE410CF196EBF890082A127 /* FineWine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5AE410CD196EBF890082A127 /* FineWine.xcdatamodeld */; };
 		5AE6B3FB197AAF17003065D8 /* RedWinesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6B3FA197AAF17003065D8 /* RedWinesViewController.m */; };
-		5AE6B3FD197ABD4F003065D8 /* CustomTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AE6B3FC197ABD4F003065D8 /* CustomTableCell.xib */; };
 		5AE6B400197ABDAF003065D8 /* CustomTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6B3FF197ABDAF003065D8 /* CustomTableCell.m */; };
 /* End PBXBuildFile section */
 
@@ -59,7 +58,6 @@
 		5AE410CE196EBF890082A127 /* FineWine.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FineWine.xcdatamodel; sourceTree = "<group>"; };
 		5AE6B3F9197AAF17003065D8 /* RedWinesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RedWinesViewController.h; path = FineWine/RedWinesViewController.h; sourceTree = SOURCE_ROOT; };
 		5AE6B3FA197AAF17003065D8 /* RedWinesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RedWinesViewController.m; path = FineWine/RedWinesViewController.m; sourceTree = SOURCE_ROOT; };
-		5AE6B3FC197ABD4F003065D8 /* CustomTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableCell.xib; sourceTree = "<group>"; };
 		5AE6B3FE197ABDAF003065D8 /* CustomTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableCell.h; sourceTree = "<group>"; };
 		5AE6B3FF197ABDAF003065D8 /* CustomTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,7 +128,6 @@
 				5A2F2C3C1966B35000E80DFC /* Main.storyboard */,
 				5A2F2C421966B35000E80DFC /* Images.xcassets */,
 				5A2F2C311966B35000E80DFC /* Supporting Files */,
-				5AE6B3FC197ABD4F003065D8 /* CustomTableCell.xib */,
 				5AE6B3FE197ABDAF003065D8 /* CustomTableCell.h */,
 				5AE6B3FF197ABDAF003065D8 /* CustomTableCell.m */,
 			);
@@ -262,7 +259,6 @@
 				5A2F2C431966B35000E80DFC /* Images.xcassets in Resources */,
 				5A2F2C351966B35000E80DFC /* InfoPlist.strings in Resources */,
 				5A2F2C3E1966B35000E80DFC /* Main.storyboard in Resources */,
-				5AE6B3FD197ABD4F003065D8 /* CustomTableCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

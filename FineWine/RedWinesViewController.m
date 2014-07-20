@@ -47,14 +47,20 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *cellIdentifier = @"CustomCell";
+    static NSString *cellIdentifier = @"Cell";
 	
     CustomTableCell *cell = (CustomTableCell *)[tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+	//UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
 	
     if (cell == nil) {
         NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"CustomTableCell" owner:self options:nil];
 		cell = [nib objectAtIndex:0];
     }
+	
+    // Configure the cell...
+//    if (cell == nil) {
+//        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
+//    }
 	
     cell.nameLabel.text = [self.wineList objectAtIndex:indexPath.row];
 	cell.thumbnailImage.image = [UIImage imageNamed:[self.thumbnails objectAtIndex:indexPath.row]];
