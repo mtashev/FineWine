@@ -26,14 +26,20 @@
 
 - (void)viewDidLoad
 {
+	
+	
+	self.scrollView.contentSize = CGSizeMake(self.scrollView.bounds.size.width, self.scrollView.bounds.size.height*2);
+	self.scrollView.scrollEnabled = YES;
+	
     [super viewDidLoad];
 	
+
 	self.title = self.wine.wineName;
-	self.nameLabel.text = self.wine.wineName;
+	//self.nameLabel.text = self.wine.wineName;
 	self.imageView.image = [UIImage imageNamed:self.wine.wineImage];
 	self.detailsTextView.text = self.wine.wineDetails;
 	self.detailsTextView.editable = NO;
-	self.temperatureLabel.text = self.wine.wineTemperature;
+	self.temperatureLabel.text =  [NSString stringWithFormat:@"Serving temperature is %@", self.wine.wineTemperature];
 	self.foodTextView.text = self.wine.wineFood;
 }
 
