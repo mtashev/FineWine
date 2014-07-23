@@ -10,10 +10,10 @@
 
 @interface Wine : NSObject
 
-@property (strong, nonatomic) NSString *name; //name of the wine
-@property (strong, nonatomic) NSString *image; //image of the wine
-@property (strong, nonatomic) NSString *information; // details for the wine
-@property (strong, nonatomic) NSString *temperature; // appropriate temperature
-@property (strong, nonatomic) NSString *food; // adequate food for this wine
+@property (strong, nonatomic) NSString *wineName; //name of the wine
+@property (strong, nonatomic) NSString *wineImage; //image of the wine
+@property (strong, nonatomic) NSString *wineDetails; // details for the wine
+@property (strong, nonatomic) NSString *wineTemperature; // appropriate temperature
+@property (strong, nonatomic) NSString *wineFood; // adequate food for this wine
 
 @end

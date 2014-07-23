@@ -22,6 +22,7 @@
 		5A2F2C561966B35100E80DFC /* FineWineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F2C551966B35100E80DFC /* FineWineTests.m */; };
 		5AA4D90E197D13D000498967 /* RedWinesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA4D90D197D13D000498967 /* RedWinesDetailViewController.m */; };
 		5AA4D911197D185100498967 /* Wine.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA4D910197D185100498967 /* Wine.m */; };
+		5AA4D913197D364A00498967 /* RedWines.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5AA4D912197D364A00498967 /* RedWines.plist */; };
 		5AE410CC196EBF6D0082A127 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE410CB196EBF6D0082A127 /* CoreData.framework */; };
 		5AE410CF196EBF890082A127 /* FineWine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5AE410CD196EBF890082A127 /* FineWine.xcdatamodeld */; };
 		5AE6B3FB197AAF17003065D8 /* RedWinesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6B3FA197AAF17003065D8 /* RedWinesViewController.m */; };
@@ -60,6 +61,7 @@
 		5AA4D90D197D13D000498967 /* RedWinesDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedWinesDetailViewController.m; sourceTree = "<group>"; };
 		5AA4D90F197D185100498967 /* Wine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wine.h; sourceTree = "<group>"; };
 		5AA4D910197D185100498967 /* Wine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wine.m; sourceTree = "<group>"; };
+		5AA4D912197D364A00498967 /* RedWines.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RedWines.plist; sourceTree = "<group>"; };
 		5AE410CB196EBF6D0082A127 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		5AE410CE196EBF890082A127 /* FineWine.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FineWine.xcdatamodel; sourceTree = "<group>"; };
 		5AE6B3F9197AAF17003065D8 /* RedWinesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RedWinesViewController.h; path = FineWine/RedWinesViewController.h; sourceTree = SOURCE_ROOT; };
@@ -186,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				5AE410CD196EBF890082A127 /* FineWine.xcdatamodeld */,
+				5AA4D912197D364A00498967 /* RedWines.plist */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A2F2C431966B35000E80DFC /* Images.xcassets in Resources */,
+				5AA4D913197D364A00498967 /* RedWines.plist in Resources */,
 				5A2F2C351966B35000E80DFC /* InfoPlist.strings in Resources */,
 				5A2F2C3E1966B35000E80DFC /* Main.storyboard in Resources */,
 			);

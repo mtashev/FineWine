@@ -8,12 +8,15 @@
 
 #import <UIKit/UIKit.h>
 #import "Wine.h"
+#import "RedWinesViewController.h"
 
 @interface RedWinesDetailViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UIImageView *image;
-@property (weak, nonatomic) IBOutlet UILabel *name;
-@property (weak, nonatomic) IBOutlet UITextView *information;
+@property (strong, nonatomic) IBOutlet UIImageView *imageView;
+@property (strong, nonatomic) IBOutlet UILabel *nameLabel;
+@property (strong, nonatomic) IBOutlet UITextView *detailsTextView;
+@property (strong, nonatomic) IBOutlet UILabel *temperatureLabel;
+@property (strong, nonatomic) IBOutlet UITextView *foodTextView;
 
 @property (strong, nonatomic) Wine *wine;
 

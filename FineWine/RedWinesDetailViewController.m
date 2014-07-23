@@ -7,6 +7,7 @@
 //
 
 #import "RedWinesDetailViewController.h"
+#import "RedWinesViewController.h"
 
 @interface RedWinesDetailViewController ()
 
@@ -26,29 +27,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-	self.title = self.wine.name;
-	self.image.image = [UIImage imageNamed:self.wine.image];
-	self.information.text = self.wine.information;
-	self.name.text = self.wine.name;
-	self.information.editable = NO;
+	
+	self.title = self.wine.wineName;
+	self.nameLabel.text = self.wine.wineName;
+	self.imageView.image = [UIImage imageNamed:self.wine.wineImage];
+	self.detailsTextView.text = self.wine.wineDetails;
+	self.detailsTextView.editable = NO;
+	self.temperatureLabel.text = self.wine.wineTemperature;
+	self.foodTextView.text = self.wine.wineFood;
 }
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
