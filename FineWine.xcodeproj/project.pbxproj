@@ -39,6 +39,8 @@
 		5AF7B560198136B100319B37 /* SparklingWinesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7B55F198136B100319B37 /* SparklingWinesDetailViewController.m */; };
 		5AF7B5621981375000319B37 /* DessertWines.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5AF7B5611981375000319B37 /* DessertWines.plist */; };
 		5AF7B5641981375D00319B37 /* SparklingWines.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5AF7B5631981375D00319B37 /* SparklingWines.plist */; };
+		5AF7B5681981405900319B37 /* WinesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7B5671981405900319B37 /* WinesViewController.m */; };
+		5AF7B56B1981408500319B37 /* WinesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7B56A1981408500319B37 /* WinesDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +102,10 @@
 		5AF7B55F198136B100319B37 /* SparklingWinesDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SparklingWinesDetailViewController.m; sourceTree = "<group>"; };
 		5AF7B5611981375000319B37 /* DessertWines.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DessertWines.plist; sourceTree = "<group>"; };
 		5AF7B5631981375D00319B37 /* SparklingWines.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SparklingWines.plist; sourceTree = "<group>"; };
+		5AF7B5661981405900319B37 /* WinesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WinesViewController.h; sourceTree = "<group>"; };
+		5AF7B5671981405900319B37 /* WinesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WinesViewController.m; sourceTree = "<group>"; };
+		5AF7B5691981408500319B37 /* WinesDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WinesDetailViewController.h; sourceTree = "<group>"; };
+		5AF7B56A1981408500319B37 /* WinesDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WinesDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +214,7 @@
 		5AE410DF196EC2F40082A127 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				5AF7B56519813FCC00319B37 /* Base Wine */,
 				5AF7B550198135AF00319B37 /* Red Wine */,
 				5AF7B552198135CD00319B37 /* Rose Wine */,
 				5AF7B551198135BF00319B37 /* White Wine */,
@@ -283,6 +290,17 @@
 				5AF7B55F198136B100319B37 /* SparklingWinesDetailViewController.m */,
 			);
 			name = "Sparkling Wine";
+			sourceTree = "<group>";
+		};
+		5AF7B56519813FCC00319B37 /* Base Wine */ = {
+			isa = PBXGroup;
+			children = (
+				5AF7B5661981405900319B37 /* WinesViewController.h */,
+				5AF7B5671981405900319B37 /* WinesViewController.m */,
+				5AF7B5691981408500319B37 /* WinesDetailViewController.h */,
+				5AF7B56A1981408500319B37 /* WinesDetailViewController.m */,
+			);
+			name = "Base Wine";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -391,7 +409,9 @@
 				5AF7B54A1981347700319B37 /* RoseWinesViewController.m in Sources */,
 				5AA4D90E197D13D000498967 /* RedWinesDetailViewController.m in Sources */,
 				5AE6B400197ABDAF003065D8 /* CustomTableCell.m in Sources */,
+				5AF7B56B1981408500319B37 /* WinesDetailViewController.m in Sources */,
 				5A2F2C3B1966B35000E80DFC /* AppDelegate.m in Sources */,
+				5AF7B5681981405900319B37 /* WinesViewController.m in Sources */,
 				5AF7B54419812E7E00319B37 /* WhiteWinesViewController.m in Sources */,
 				5AF7B55A1981368800319B37 /* DessertWinesDetailViewController.m in Sources */,
 				5AF7B55D1981369F00319B37 /* SparklingWinesViewController.m in Sources */,

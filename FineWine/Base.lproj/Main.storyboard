@@ -925,8 +925,8 @@
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
-                                    <outlet property="dataSource" destination="q9z-Fj-Y98" id="v7a-gD-7r0"/>
-                                    <outlet property="delegate" destination="q9z-Fj-Y98" id="5VG-bO-fBw"/>
+                                    <outlet property="dataSource" destination="q9z-Fj-Y98" id="Ap0-AF-pJz"/>
+                                    <outlet property="delegate" destination="q9z-Fj-Y98" id="yYh-u0-GJz"/>
                                 </connections>
                             </tableView>
                         </subviews>
@@ -934,7 +934,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Sparkling wines" id="rQI-vt-a9s"/>
                     <connections>
-                        <outlet property="tableView" destination="OmG-2L-jBA" id="QxQ-Is-Kpg"/>
+                        <outlet property="tableView" destination="OmG-2L-jBA" id="Esw-xl-ZeT"/>
                     </connections>
                 </viewController>
             </objects>
