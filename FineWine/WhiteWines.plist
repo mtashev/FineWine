@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>Names</key>
+		<array>
+			<string>Zinfandel</string>
+			<string>Muscat</string>
+			<string>Chardonay</string>
+		</array>
+		<key>Details</key>
+		<array>
+			<string>Whatever wine. GErman</string>
+			<string>Great one. not German</string>
+			<string>Sweet wine. GOod with fruits. Not german boay</string>
+		</array>
+		<key>Foods</key>
+		<array>
+			<string>Chickens</string>
+			<string>Porks</string>
+			<string>Vanilla ice creams</string>
+		</array>
+		<key>Temperatures</key>
+		<array>
+			<string>20-25-30</string>
+			<string>Hot! Hot</string>
+			<string>Mildly warm. Bom-bom Mildly warm. Bom-bom Mildly warm. Bom-bom</string>
+		</array>
+		<key>Images</key>
+		<array>
+			<string>wine2.jpg</string>
+			<string>wine3.jpg</string>
+			<string>wine1.jpg</string>
+		</array>
+	</dict>
+</plist>

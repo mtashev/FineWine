@@ -27,6 +27,9 @@
 		5AE410CF196EBF890082A127 /* FineWine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5AE410CD196EBF890082A127 /* FineWine.xcdatamodeld */; };
 		5AE6B3FB197AAF17003065D8 /* RedWinesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6B3FA197AAF17003065D8 /* RedWinesViewController.m */; };
 		5AE6B400197ABDAF003065D8 /* CustomTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6B3FF197ABDAF003065D8 /* CustomTableCell.m */; };
+		5AF7B54119812D4100319B37 /* WhiteWines.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5AF7B54019812D4100319B37 /* WhiteWines.plist */; };
+		5AF7B54419812E7E00319B37 /* WhiteWinesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7B54319812E7E00319B37 /* WhiteWinesViewController.m */; };
+		5AF7B54719812E9200319B37 /* WhiteWinesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7B54619812E9200319B37 /* WhiteWinesDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +71,11 @@
 		5AE6B3FA197AAF17003065D8 /* RedWinesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RedWinesViewController.m; path = FineWine/RedWinesViewController.m; sourceTree = SOURCE_ROOT; };
 		5AE6B3FE197ABDAF003065D8 /* CustomTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableCell.h; sourceTree = "<group>"; };
 		5AE6B3FF197ABDAF003065D8 /* CustomTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableCell.m; sourceTree = "<group>"; };
+		5AF7B54019812D4100319B37 /* WhiteWines.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WhiteWines.plist; sourceTree = "<group>"; };
+		5AF7B54219812E7E00319B37 /* WhiteWinesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiteWinesViewController.h; sourceTree = "<group>"; };
+		5AF7B54319812E7E00319B37 /* WhiteWinesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiteWinesViewController.m; sourceTree = "<group>"; };
+		5AF7B54519812E9200319B37 /* WhiteWinesDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiteWinesDetailViewController.h; sourceTree = "<group>"; };
+		5AF7B54619812E9200319B37 /* WhiteWinesDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiteWinesDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +188,10 @@
 				5AE6B3FA197AAF17003065D8 /* RedWinesViewController.m */,
 				5AA4D90C197D13D000498967 /* RedWinesDetailViewController.h */,
 				5AA4D90D197D13D000498967 /* RedWinesDetailViewController.m */,
+				5AF7B54219812E7E00319B37 /* WhiteWinesViewController.h */,
+				5AF7B54319812E7E00319B37 /* WhiteWinesViewController.m */,
+				5AF7B54519812E9200319B37 /* WhiteWinesDetailViewController.h */,
+				5AF7B54619812E9200319B37 /* WhiteWinesDetailViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -189,6 +201,7 @@
 			children = (
 				5AE410CD196EBF890082A127 /* FineWine.xcdatamodeld */,
 				5AA4D912197D364A00498967 /* RedWines.plist */,
+				5AF7B54019812D4100319B37 /* WhiteWines.plist */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -270,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A2F2C431966B35000E80DFC /* Images.xcassets in Resources */,
+				5AF7B54119812D4100319B37 /* WhiteWines.plist in Resources */,
 				5AA4D913197D364A00498967 /* RedWines.plist in Resources */,
 				5A2F2C351966B35000E80DFC /* InfoPlist.strings in Resources */,
 				5A2F2C3E1966B35000E80DFC /* Main.storyboard in Resources */,
@@ -294,8 +308,10 @@
 				5AA4D90E197D13D000498967 /* RedWinesDetailViewController.m in Sources */,
 				5AE6B400197ABDAF003065D8 /* CustomTableCell.m in Sources */,
 				5A2F2C3B1966B35000E80DFC /* AppDelegate.m in Sources */,
+				5AF7B54419812E7E00319B37 /* WhiteWinesViewController.m in Sources */,
 				5AE410CF196EBF890082A127 /* FineWine.xcdatamodeld in Sources */,
 				5AE6B3FB197AAF17003065D8 /* RedWinesViewController.m in Sources */,
+				5AF7B54719812E9200319B37 /* WhiteWinesDetailViewController.m in Sources */,
 				5AA4D911197D185100498967 /* Wine.m in Sources */,
 				5A2F2C371966B35000E80DFC /* main.m in Sources */,
 			);

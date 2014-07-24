@@ -6,6 +6,11 @@
 //  Copyright (c) 2014 Mariyan Tashev. All rights reserved.
 //
 
+#pragma Important Note
+//Important note
+//Keep in mind that this class is the base class for all other wine types.
+//Switch it later on
+
 #import <UIKit/UIKit.h>
 #import "Wine.h"
 #import "RedWinesDetailViewController.h"
