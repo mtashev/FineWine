@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>Names</key>
+		<array>
+			<string>Rose Rose</string>
+			<string>Grenada</string>
+			<string>Pink BLush</string>
+		</array>
+		<key>Details</key>
+		<array>
+			<string>Rose Rose Rose</string>
+			<string>PFFTS</string>
+			<string>SweetESTEST wine. GOod with fruits. Not german boay</string>
+		</array>
+		<key>Foods</key>
+		<array>
+			<string>Chickens and turkey</string>
+			<string>Porks but no fillet</string>
+			<string>Chocolate ice creams</string>
+		</array>
+		<key>Temperatures</key>
+		<array>
+			<string>20-25-30-35</string>
+			<string>Hot! HotHot! Hot</string>
+			<string>Mildly warm. Bom-bom Mildly warm. Bom-bom Mildly w. Bom-bom Mildly w. Bom-bom Mildly warm. Bom-bom</string>
+		</array>
+		<key>Images</key>
+		<array>
+			<string>wine1.jpg</string>
+			<string>wine2.jpg</string>
+			<string>wine3.jpg</string>
+		</array>
+	</dict>
+</plist>

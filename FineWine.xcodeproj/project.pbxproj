@@ -30,6 +30,15 @@
 		5AF7B54119812D4100319B37 /* WhiteWines.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5AF7B54019812D4100319B37 /* WhiteWines.plist */; };
 		5AF7B54419812E7E00319B37 /* WhiteWinesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7B54319812E7E00319B37 /* WhiteWinesViewController.m */; };
 		5AF7B54719812E9200319B37 /* WhiteWinesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7B54619812E9200319B37 /* WhiteWinesDetailViewController.m */; };
+		5AF7B54A1981347700319B37 /* RoseWinesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7B5491981347700319B37 /* RoseWinesViewController.m */; };
+		5AF7B54D1981349400319B37 /* RoseWinesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7B54C1981349400319B37 /* RoseWinesDetailViewController.m */; };
+		5AF7B54F198134D400319B37 /* RoseWines.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5AF7B54E198134D400319B37 /* RoseWines.plist */; };
+		5AF7B5571981367400319B37 /* DessertWinesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7B5561981367400319B37 /* DessertWinesViewController.m */; };
+		5AF7B55A1981368800319B37 /* DessertWinesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7B5591981368800319B37 /* DessertWinesDetailViewController.m */; };
+		5AF7B55D1981369F00319B37 /* SparklingWinesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7B55C1981369F00319B37 /* SparklingWinesViewController.m */; };
+		5AF7B560198136B100319B37 /* SparklingWinesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7B55F198136B100319B37 /* SparklingWinesDetailViewController.m */; };
+		5AF7B5621981375000319B37 /* DessertWines.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5AF7B5611981375000319B37 /* DessertWines.plist */; };
+		5AF7B5641981375D00319B37 /* SparklingWines.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5AF7B5631981375D00319B37 /* SparklingWines.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +85,21 @@
 		5AF7B54319812E7E00319B37 /* WhiteWinesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiteWinesViewController.m; sourceTree = "<group>"; };
 		5AF7B54519812E9200319B37 /* WhiteWinesDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiteWinesDetailViewController.h; sourceTree = "<group>"; };
 		5AF7B54619812E9200319B37 /* WhiteWinesDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiteWinesDetailViewController.m; sourceTree = "<group>"; };
+		5AF7B5481981347700319B37 /* RoseWinesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoseWinesViewController.h; sourceTree = "<group>"; };
+		5AF7B5491981347700319B37 /* RoseWinesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoseWinesViewController.m; sourceTree = "<group>"; };
+		5AF7B54B1981349400319B37 /* RoseWinesDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoseWinesDetailViewController.h; sourceTree = "<group>"; };
+		5AF7B54C1981349400319B37 /* RoseWinesDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoseWinesDetailViewController.m; sourceTree = "<group>"; };
+		5AF7B54E198134D400319B37 /* RoseWines.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RoseWines.plist; sourceTree = "<group>"; };
+		5AF7B5551981367400319B37 /* DessertWinesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DessertWinesViewController.h; sourceTree = "<group>"; };
+		5AF7B5561981367400319B37 /* DessertWinesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DessertWinesViewController.m; sourceTree = "<group>"; };
+		5AF7B5581981368800319B37 /* DessertWinesDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DessertWinesDetailViewController.h; sourceTree = "<group>"; };
+		5AF7B5591981368800319B37 /* DessertWinesDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DessertWinesDetailViewController.m; sourceTree = "<group>"; };
+		5AF7B55B1981369F00319B37 /* SparklingWinesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SparklingWinesViewController.h; sourceTree = "<group>"; };
+		5AF7B55C1981369F00319B37 /* SparklingWinesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SparklingWinesViewController.m; sourceTree = "<group>"; };
+		5AF7B55E198136B100319B37 /* SparklingWinesDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SparklingWinesDetailViewController.h; sourceTree = "<group>"; };
+		5AF7B55F198136B100319B37 /* SparklingWinesDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SparklingWinesDetailViewController.m; sourceTree = "<group>"; };
+		5AF7B5611981375000319B37 /* DessertWines.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DessertWines.plist; sourceTree = "<group>"; };
+		5AF7B5631981375D00319B37 /* SparklingWines.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SparklingWines.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,14 +208,11 @@
 		5AE410DF196EC2F40082A127 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				5AE6B3F9197AAF17003065D8 /* RedWinesViewController.h */,
-				5AE6B3FA197AAF17003065D8 /* RedWinesViewController.m */,
-				5AA4D90C197D13D000498967 /* RedWinesDetailViewController.h */,
-				5AA4D90D197D13D000498967 /* RedWinesDetailViewController.m */,
-				5AF7B54219812E7E00319B37 /* WhiteWinesViewController.h */,
-				5AF7B54319812E7E00319B37 /* WhiteWinesViewController.m */,
-				5AF7B54519812E9200319B37 /* WhiteWinesDetailViewController.h */,
-				5AF7B54619812E9200319B37 /* WhiteWinesDetailViewController.m */,
+				5AF7B550198135AF00319B37 /* Red Wine */,
+				5AF7B552198135CD00319B37 /* Rose Wine */,
+				5AF7B551198135BF00319B37 /* White Wine */,
+				5AF7B5531981362500319B37 /* Dessert Wine */,
+				5AF7B5541981362D00319B37 /* Sparkling Wine */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -202,8 +223,66 @@
 				5AE410CD196EBF890082A127 /* FineWine.xcdatamodeld */,
 				5AA4D912197D364A00498967 /* RedWines.plist */,
 				5AF7B54019812D4100319B37 /* WhiteWines.plist */,
+				5AF7B54E198134D400319B37 /* RoseWines.plist */,
+				5AF7B5611981375000319B37 /* DessertWines.plist */,
+				5AF7B5631981375D00319B37 /* SparklingWines.plist */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		5AF7B550198135AF00319B37 /* Red Wine */ = {
+			isa = PBXGroup;
+			children = (
+				5AE6B3F9197AAF17003065D8 /* RedWinesViewController.h */,
+				5AE6B3FA197AAF17003065D8 /* RedWinesViewController.m */,
+				5AA4D90C197D13D000498967 /* RedWinesDetailViewController.h */,
+				5AA4D90D197D13D000498967 /* RedWinesDetailViewController.m */,
+			);
+			name = "Red Wine";
+			sourceTree = "<group>";
+		};
+		5AF7B551198135BF00319B37 /* White Wine */ = {
+			isa = PBXGroup;
+			children = (
+				5AF7B54219812E7E00319B37 /* WhiteWinesViewController.h */,
+				5AF7B54319812E7E00319B37 /* WhiteWinesViewController.m */,
+				5AF7B54519812E9200319B37 /* WhiteWinesDetailViewController.h */,
+				5AF7B54619812E9200319B37 /* WhiteWinesDetailViewController.m */,
+			);
+			name = "White Wine";
+			sourceTree = "<group>";
+		};
+		5AF7B552198135CD00319B37 /* Rose Wine */ = {
+			isa = PBXGroup;
+			children = (
+				5AF7B5481981347700319B37 /* RoseWinesViewController.h */,
+				5AF7B5491981347700319B37 /* RoseWinesViewController.m */,
+				5AF7B54B1981349400319B37 /* RoseWinesDetailViewController.h */,
+				5AF7B54C1981349400319B37 /* RoseWinesDetailViewController.m */,
+			);
+			name = "Rose Wine";
+			sourceTree = "<group>";
+		};
+		5AF7B5531981362500319B37 /* Dessert Wine */ = {
+			isa = PBXGroup;
+			children = (
+				5AF7B5551981367400319B37 /* DessertWinesViewController.h */,
+				5AF7B5561981367400319B37 /* DessertWinesViewController.m */,
+				5AF7B5581981368800319B37 /* DessertWinesDetailViewController.h */,
+				5AF7B5591981368800319B37 /* DessertWinesDetailViewController.m */,
+			);
+			name = "Dessert Wine";
+			sourceTree = "<group>";
+		};
+		5AF7B5541981362D00319B37 /* Sparkling Wine */ = {
+			isa = PBXGroup;
+			children = (
+				5AF7B55B1981369F00319B37 /* SparklingWinesViewController.h */,
+				5AF7B55C1981369F00319B37 /* SparklingWinesViewController.m */,
+				5AF7B55E198136B100319B37 /* SparklingWinesDetailViewController.h */,
+				5AF7B55F198136B100319B37 /* SparklingWinesDetailViewController.m */,
+			);
+			name = "Sparkling Wine";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,11 +361,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AF7B54F198134D400319B37 /* RoseWines.plist in Resources */,
 				5A2F2C431966B35000E80DFC /* Images.xcassets in Resources */,
 				5AF7B54119812D4100319B37 /* WhiteWines.plist in Resources */,
 				5AA4D913197D364A00498967 /* RedWines.plist in Resources */,
 				5A2F2C351966B35000E80DFC /* InfoPlist.strings in Resources */,
+				5AF7B5621981375000319B37 /* DessertWines.plist in Resources */,
 				5A2F2C3E1966B35000E80DFC /* Main.storyboard in Resources */,
+				5AF7B5641981375D00319B37 /* SparklingWines.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,14 +387,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AF7B54D1981349400319B37 /* RoseWinesDetailViewController.m in Sources */,
+				5AF7B54A1981347700319B37 /* RoseWinesViewController.m in Sources */,
 				5AA4D90E197D13D000498967 /* RedWinesDetailViewController.m in Sources */,
 				5AE6B400197ABDAF003065D8 /* CustomTableCell.m in Sources */,
 				5A2F2C3B1966B35000E80DFC /* AppDelegate.m in Sources */,
 				5AF7B54419812E7E00319B37 /* WhiteWinesViewController.m in Sources */,
+				5AF7B55A1981368800319B37 /* DessertWinesDetailViewController.m in Sources */,
+				5AF7B55D1981369F00319B37 /* SparklingWinesViewController.m in Sources */,
 				5AE410CF196EBF890082A127 /* FineWine.xcdatamodeld in Sources */,
 				5AE6B3FB197AAF17003065D8 /* RedWinesViewController.m in Sources */,
+				5AF7B560198136B100319B37 /* SparklingWinesDetailViewController.m in Sources */,
 				5AF7B54719812E9200319B37 /* WhiteWinesDetailViewController.m in Sources */,
 				5AA4D911197D185100498967 /* Wine.m in Sources */,
+				5AF7B5571981367400319B37 /* DessertWinesViewController.m in Sources */,
 				5A2F2C371966B35000E80DFC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
