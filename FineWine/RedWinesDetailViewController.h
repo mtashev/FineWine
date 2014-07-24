@@ -15,9 +15,8 @@
 @property (strong, nonatomic) IBOutlet UIImageView *imageView;
 //@property (strong, nonatomic) IBOutlet UILabel *nameLabel;
 @property (strong, nonatomic) IBOutlet UITextView *detailsTextView;
-@property (strong, nonatomic) IBOutlet UILabel *temperatureLabel;
+@property (strong, nonatomic) IBOutlet UITextView *temperatureTextView;
 @property (strong, nonatomic) IBOutlet UITextView *foodTextView;
-@property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
 
 @property (strong, nonatomic) Wine *wine;
 
