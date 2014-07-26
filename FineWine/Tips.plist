@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>Names</key>
+		<array>
+			<string>How to open a bottle</string>
+			<string>How to look at wine</string>
+			<string>How to break the cork. Recommended tip! Serioulsy man</string>
+		</array>
+		<key>Details</key>
+		<array>
+			<string>Get your shit together. You don't know how to open a bottle ? really?</string>
+			<string>Look at it. Or stare.. you know.</string>
+			<string>Use a stupid bottle opener.</string>
+		</array>
+		<key>Images</key>
+		<array>
+			<string>wine1.jpg</string>
+			<string>wine2.jpg</string>
+			<string>wine3.jpg</string>
+		</array>
+	</dict>
+</plist>

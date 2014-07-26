@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Names</key>
+	<array>
+		<string>Chicken</string>
+		<string>Pork</string>
+		<string>Fish</string>
+	</array>
+	<key>Details</key>
+	<array>
+		<string>Drink white wine with this. Prefferably.</string>
+		<string>Red. Syrah.</string>
+		<string>White. Tokaji.</string>
+	</array>
+	<key>Images</key>
+	<array>
+		<string>wine1.jpg</string>
+		<string>wine2.jpg</string>
+		<string>wine3.jpg</string>
+	</array>
+</dict>
+</plist>
