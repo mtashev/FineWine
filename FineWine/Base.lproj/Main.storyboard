@@ -248,7 +248,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="White wines">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -319,7 +319,6 @@
         <!--Red Wines View Controller - Red wines-->
         <scene sceneID="Tec-0M-RI3">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="6dB-FD-xi5" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="7rf-u3-e4G" customClass="RedWinesViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ir2-3N-hq0"/>
@@ -375,13 +374,13 @@
                         <outlet property="tableView" destination="tOf-oh-W4Q" id="VPC-gO-hJW"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6dB-FD-xi5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-5525" y="-2432"/>
         </scene>
         <!--Red Wines Detail View Controller-->
         <scene sceneID="RNJ-fJ-Bar">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="93E-Ae-iNi" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="npo-t3-zjj" customClass="RedWinesDetailViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2Kw-Tl-aZW"/>
@@ -399,7 +398,7 @@
                                 <rect key="frame" x="20" y="334" width="280" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="1" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -449,6 +448,7 @@
                         <outlet property="temperatureTextView" destination="PRi-Jg-766" id="t8X-Qt-G7Z"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="93E-Ae-iNi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-5116" y="-2432"/>
         </scene>
@@ -473,7 +473,6 @@
         <!--White Wines View Controller - White wines-->
         <scene sceneID="JmE-Ye-7Qv">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Z8k-6e-1DA" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="FEY-yc-DH3" userLabel="White Wines View Controller - White wines" customClass="WhiteWinesViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="BHH-Ue-JxK"/>
@@ -529,13 +528,13 @@
                         <outlet property="tableView" destination="q8I-9u-bsv" id="Enq-Io-Cc9"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z8k-6e-1DA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-4675" y="-2852"/>
         </scene>
         <!--White Wines Detail View Controller-->
         <scene sceneID="Em1-Sl-d7k">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hkv-vZ-B5x" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="1wP-uo-Zle" userLabel="White Wines Detail View Controller" customClass="WhiteWinesDetailViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="TrW-tg-dks"/>
@@ -553,7 +552,7 @@
                                 <rect key="frame" x="20" y="334" width="280" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -603,13 +602,13 @@
                         <outlet property="temperatureTextView" destination="TNW-v5-6Fm" id="yxL-gM-eqv"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hkv-vZ-B5x" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-4266" y="-2852"/>
         </scene>
         <!--Rose Wines View Controller - Rose wines-->
         <scene sceneID="bWf-0D-K6a">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ffe-84-4sq" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="hsz-f9-CYW" userLabel="Rose Wines View Controller - Rose wines" customClass="RoseWinesViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="38k-Sn-cuk"/>
@@ -665,13 +664,13 @@
                         <outlet property="tableView" destination="24v-DH-T4D" id="cde-Mi-u0b"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ffe-84-4sq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-3839" y="-2832"/>
         </scene>
         <!--Rose Wines Detail View Controller-->
         <scene sceneID="ULV-Rn-tZZ">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="TvM-HT-aRo" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="Yc1-sG-DcE" userLabel="Rose Wines Detail View Controller" customClass="RoseWinesDetailViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="RIG-VN-RqQ"/>
@@ -689,7 +688,7 @@
                                 <rect key="frame" x="20" y="334" width="280" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -739,13 +738,13 @@
                         <outlet property="temperatureTextView" destination="2jz-D3-tGx" id="8Ah-ff-Gqf"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TvM-HT-aRo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-3446" y="-2832"/>
         </scene>
         <!--Dessert Wines View Controller - Dessert wines-->
         <scene sceneID="DHQ-Xe-etL">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Lpi-PI-bmX" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="bNa-MD-ruf" customClass="DessertWinesViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fvg-91-l81"/>
@@ -801,13 +800,13 @@
                         <outlet property="tableView" destination="oFg-zZ-Nk8" id="TP7-Xo-Yzq"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lpi-PI-bmX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-3805" y="-2162"/>
         </scene>
         <!--Dessert Wines Detail View Controller-->
         <scene sceneID="sLw-ZF-yuH">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fuN-cK-TdO" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="Lpe-yI-2oo" customClass="DessertWinesDetailViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ivb-JM-Md4"/>
@@ -825,7 +824,7 @@
                                 <rect key="frame" x="20" y="334" width="280" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -875,13 +874,13 @@
                         <outlet property="temperatureTextView" destination="iCv-AA-5rc" id="Xhs-dy-cbW"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fuN-cK-TdO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-3400" y="-2162"/>
         </scene>
         <!--Sparkling Wines View Controller - Sparkling wines-->
         <scene sceneID="hTg-ZU-kXw">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="31A-sc-zXQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="q9z-Fj-Y98" customClass="SparklingWinesViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mHp-Jc-g9T"/>
@@ -937,13 +936,13 @@
                         <outlet property="tableView" destination="OmG-2L-jBA" id="Esw-xl-ZeT"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="31A-sc-zXQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-4246" y="-1523"/>
         </scene>
         <!--Sparkling Wines Detail View Controller-->
         <scene sceneID="80v-Qa-Peq">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="eym-is-Jnb" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="aWS-kO-ssP" customClass="SparklingWinesDetailViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gut-kW-XWg"/>
@@ -961,7 +960,7 @@
                                 <rect key="frame" x="20" y="334" width="280" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1011,6 +1010,7 @@
                         <outlet property="temperatureTextView" destination="B1j-LW-3py" id="bk2-1h-kyu"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eym-is-Jnb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-3845" y="-1523"/>
         </scene>
