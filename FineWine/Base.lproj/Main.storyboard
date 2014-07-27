@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--View Controller - Home-->
+        <!--Home View Controller - Home-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="HomeViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -16,16 +16,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" alpha="0.74999999999999978" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wine34" translatesAutoresizingMaskIntoConstraints="NO" id="hZC-Sa-9eX">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home1" translatesAutoresizingMaskIntoConstraints="NO" id="hZC-Sa-9eX">
                                 <rect key="frame" x="-11" y="0.0" width="342" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E7s-YW-47k">
-                                <rect key="frame" x="20" y="194" width="280" height="42"/>
+                                <rect key="frame" x="40" y="155" width="280" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Select by type">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -33,11 +33,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EtD-Qy-cX0">
-                                <rect key="frame" x="20" y="244" width="280" height="42"/>
+                                <rect key="frame" x="40" y="244" width="280" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Pair with food">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -45,96 +45,60 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qzw-Ue-wCd">
-                                <rect key="frame" x="20" y="332" width="280" height="42"/>
+                                <rect key="frame" x="40" y="334" width="280" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Tips">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="goX-kA-UKl" kind="push" id="SmP-7C-3p7"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Rd-cT-4r7">
-                                <rect key="frame" x="20" y="289" width="280" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="My wines">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="J3m-Oq-Pzs" kind="push" id="ABL-5r-UQF"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l1d-yd-Oec">
-                                <rect key="frame" x="139" y="433" width="42" height="30"/>
+                                <rect key="frame" x="139" y="430" width="42" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="About">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="Y9i-xG-QRR" kind="push" id="nKb-iq-ygu"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="grapes1" translatesAutoresizingMaskIntoConstraints="NO" id="Koq-tT-0FF">
-                                <rect key="frame" x="39" y="199" width="32" height="32"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wine56" translatesAutoresizingMaskIntoConstraints="NO" id="zdq-4t-uxc">
+                                <rect key="frame" x="20" y="231" width="68" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="covered16" translatesAutoresizingMaskIntoConstraints="NO" id="vwA-wD-yoD">
-                                <rect key="frame" x="39" y="249" width="32" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="party1" translatesAutoresizingMaskIntoConstraints="NO" id="AH8-Je-Hvn">
-                                <rect key="frame" x="39" y="339" width="32" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="couple16" translatesAutoresizingMaskIntoConstraints="NO" id="x7l-K9-uJh">
-                                <rect key="frame" x="39" y="294" width="32" height="32"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wine59" translatesAutoresizingMaskIntoConstraints="NO" id="r68-Hg-Q8O">
+                                <rect key="frame" x="20" y="142" width="68" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to Fine Wine" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Yh-p8-uKK">
                                 <rect key="frame" x="74" y="113" width="172" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wine67" translatesAutoresizingMaskIntoConstraints="NO" id="wdE-7l-8Cz">
+                                <rect key="frame" x="20" y="321" width="68" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.92941182851791382" green="0.92941182851791382" blue="0.92941182851791382" alpha="1" colorSpace="deviceRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Home" id="42W-EF-ZZD"/>
+                    <connections>
+                        <outlet property="foodImage" destination="zdq-4t-uxc" id="Fhb-OA-UIJ"/>
+                        <outlet property="tipsImage" destination="wdE-7l-8Cz" id="BT8-sq-5n4"/>
+                        <outlet property="typeImage" destination="r68-Hg-Q8O" id="3TO-3L-Cy7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-5554" y="-468"/>
-        </scene>
-        <!--View Controller - My wines-->
-        <scene sceneID="AR0-Sq-ByZ">
-            <objects>
-                <viewController id="J3m-Oq-Pzs" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="OjZ-62-oww"/>
-                        <viewControllerLayoutGuide type="bottom" id="PUK-cd-Jfv"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="JWq-WY-lhz">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cobaltBlue" translatesAutoresizingMaskIntoConstraints="NO" id="Fh8-dP-TTo">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="My wines" id="7uN-D4-8YI"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="i1K-Ce-c5N" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-4954" y="-243"/>
         </scene>
         <!--View Controller - About-->
         <scene sceneID="yBG-nq-1UO">
@@ -303,7 +267,7 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="0.20000000000000001" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.50196081399917603" green="0.0" blue="0.25098040699958801" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <outlet property="nameLabel" destination="CWC-gy-TZo" id="ilB-eD-KGF"/>
                                             <outlet property="thumbnailImage" destination="tpZ-A6-hQI" id="WeE-V8-Q9N"/>
@@ -355,8 +319,9 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="net-Dk-gkL">
                                 <rect key="frame" x="20" y="99" width="280" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.80000001192092896" green="0.80000001192092896" blue="0.80000001192092896" alpha="0.75" colorSpace="calibratedRGB"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -458,7 +423,7 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="0.20000000000000001" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.50196081399917603" green="0.0" blue="0.25098040699958801" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <outlet property="nameLabel" destination="eGa-8Z-WRa" id="z3W-6e-aIW"/>
                                             <outlet property="thumbnailImage" destination="u9e-cE-Ec0" id="13u-QM-o2g"/>
@@ -594,7 +559,7 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="0.20000000000000001" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.50196081399917603" green="0.0" blue="0.25098040699958801" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <outlet property="nameLabel" destination="lXw-9o-eO1" id="W3y-yO-iK4"/>
                                             <outlet property="thumbnailImage" destination="xWY-Qx-vIW" id="c3S-5h-lBA"/>
@@ -730,7 +695,7 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="0.20000000000000001" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.50196081399917603" green="0.0" blue="0.25098040699958801" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <outlet property="nameLabel" destination="nP7-nO-hpH" id="rmc-KA-JwF"/>
                                             <outlet property="thumbnailImage" destination="ohi-In-CcT" id="z92-OH-wM6"/>
@@ -866,7 +831,7 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="0.20000000000000001" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.50196081399917603" green="0.0" blue="0.25098040699958801" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <outlet property="nameLabel" destination="UQf-L9-Ek4" id="IKC-Vz-r9L"/>
                                             <outlet property="thumbnailImage" destination="RGB-Uq-S46" id="20b-AT-Utj"/>
@@ -1002,7 +967,7 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="0.20000000000000001" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.50196081399917603" green="0.0" blue="0.25098040699958801" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <outlet property="nameLabel" destination="IVY-qE-oAE" id="nab-oJ-kfH"/>
                                             <outlet property="thumbnailImage" destination="SeZ-Fr-msk" id="0eq-9M-q15"/>
@@ -1107,7 +1072,7 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="0.20000000000000001" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.50196081399917603" green="0.0" blue="0.25098040699958801" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <outlet property="nameLabel" destination="TKl-xf-U2C" id="ccD-CL-ge5"/>
                                             <outlet property="thumbnailImage" destination="fKy-eN-vzg" id="II0-sj-7so"/>
@@ -1179,18 +1144,16 @@
     </scenes>
     <resources>
         <image name="champagne" width="32" height="32"/>
-        <image name="cobaltBlue" width="640" height="1136"/>
         <image name="cocktail11" width="32" height="32"/>
-        <image name="couple16" width="32" height="36"/>
-        <image name="covered16" width="32" height="29"/>
         <image name="full5" width="32" height="55"/>
         <image name="glass15" width="32" height="32"/>
-        <image name="grapes1" width="32" height="32"/>
         <image name="gray" width="640" height="1136"/>
-        <image name="party1" width="32" height="35"/>
+        <image name="home1" width="640" height="1136"/>
         <image name="pinkAndPurple" width="640" height="1136"/>
-        <image name="wine26" width="32" height="32"/>
-        <image name="wine34" width="640" height="1136"/>
+        <image name="wine26" width="642" height="1137"/>
+        <image name="wine56" width="640" height="1136"/>
+        <image name="wine59" width="640" height="1135"/>
+        <image name="wine67" width="640" height="1136"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

@@ -20,6 +20,7 @@
 		5A2F2C4C1966B35100E80DFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A2F2C2E1966B35000E80DFC /* UIKit.framework */; };
 		5A2F2C541966B35100E80DFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A2F2C521966B35100E80DFC /* InfoPlist.strings */; };
 		5A2F2C561966B35100E80DFC /* FineWineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F2C551966B35100E80DFC /* FineWineTests.m */; };
+		5A9DF22419854EF500B32BF3 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9DF22319854EF500B32BF3 /* HomeViewController.m */; };
 		5A9F4B831983DE15003354BD /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9F4B821983DE15003354BD /* Food.m */; };
 		5A9F4B861983DE72003354BD /* Tip.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9F4B851983DE72003354BD /* Tip.m */; };
 		5A9F4B891983DF2C003354BD /* FoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9F4B881983DF2C003354BD /* FoodViewController.m */; };
@@ -79,6 +80,8 @@
 		5A2F2C511966B35100E80DFC /* FineWineTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FineWineTests-Info.plist"; sourceTree = "<group>"; };
 		5A2F2C531966B35100E80DFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5A2F2C551966B35100E80DFC /* FineWineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FineWineTests.m; sourceTree = "<group>"; };
+		5A9DF22219854EF500B32BF3 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		5A9DF22319854EF500B32BF3 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		5A9F4B811983DE15003354BD /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
 		5A9F4B821983DE15003354BD /* Food.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Food.m; sourceTree = "<group>"; };
 		5A9F4B841983DE72003354BD /* Tip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tip.h; sourceTree = "<group>"; };
@@ -284,6 +287,8 @@
 		5AE410DF196EC2F40082A127 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				5A9DF22219854EF500B32BF3 /* HomeViewController.h */,
+				5A9DF22319854EF500B32BF3 /* HomeViewController.m */,
 				5A9F4B8E1983DF56003354BD /* Tip */,
 				5A9F4B8D1983DF4A003354BD /* Food */,
 				5AF7B56519813FCC00319B37 /* Base Wine */,
@@ -506,6 +511,7 @@
 				5AA4D911197D185100498967 /* Wine.m in Sources */,
 				5AF7B5571981367400319B37 /* DessertWinesViewController.m in Sources */,
 				5A2F2C371966B35000E80DFC /* main.m in Sources */,
+				5A9DF22419854EF500B32BF3 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

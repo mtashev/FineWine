@@ -26,7 +26,8 @@
 	self.thumbnailImage.layer.cornerRadius = self.thumbnailImage.frame.size.width / 2;
 	self.thumbnailImage.clipsToBounds = YES;
 	self.thumbnailImage.layer.borderWidth = 1.0f;
-	self.thumbnailImage.layer.borderColor = [UIColor blackColor].CGColor;
+	self.thumbnailImage.layer.borderColor = [UIColor whiteColor].CGColor;
+	self.nameLabel.textColor = [UIColor whiteColor];
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated
