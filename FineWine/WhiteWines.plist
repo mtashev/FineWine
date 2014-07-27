@@ -4,33 +4,95 @@
 	<dict>
 		<key>Names</key>
 		<array>
-			<string>Zinfandel</string>
+			<string>Chardonnay</string>
+			<string>Sauvignon blanc</string>
+			<string>Pinot Grigio/Gris</string>
 			<string>Muscat</string>
-			<string>Chardonay</string>
+			<string>Riesling</string>
+			<string>Chenin Blanc</string>
+			<string>Pinot Blanc</string>
+			<string>Semillon</string>
+			<string>Viognier</string>
+			<string>Tokaji</string>
+			<string>Gewürztraminer</string>
+			<string>Marsanne</string>
+			<string>Soave</string>
 		</array>
 		<key>Details</key>
 		<array>
-			<string>Whatever wine. GErman</string>
-			<string>Great one. not German</string>
-			<string>Sweet wine. GOod with fruits. Not german boay</string>
+			<string>The most diverse and most planted white wine grape in the world. A very ripe Chardonnay will have tropical fruits flavors like pineapple, guava and mango, a barely ripe Chardonnay - green apple and lemon flavors. If you want a rounder, more creamy-feeling wine, look for wines that have gone through Malolactic Fermentation.</string>
+			
+			<string>A white wine, originates in Bordeaux and the Loire Valley in France. One of the most widely planted wine grapes in the world. The primary fruit flavors are lime, green apple, passion fruit and white peach. What makes it unique from other white wines are its herbaceous flavors like bell pepper, jalapeño, gooseberry and grass. Made completely dry, but some producers leave a bit of sugar to add a richer texture.</string>
+			
+			<string>A white wine grape variety with a grayish/brownish pink skin. The primary fruit flavors are lime, lemon, pear, white nectarine and apple. Depending on where the grapes are grown, Pinot Grigio can take on faint honeyed notes; floral aromas like honeysuckle; and a saline-like minerality. Often tastes less sweet than Chardonnay because of high acidity.</string>
+			
+			<string>A musky, fresh-grape flavored wine ranging from fine light whites to sweet dark versions (often fortified). The distinctive grapey aroma of Muscat is one of its chief properties, may be produced as dry, medium, sweet, sparkling or even dessert wine.</string>
+			
+			<string>One of the most aromatic grape varieties in the world which originated in the Rhine region of Germany. Used to make dry, semi-sweet, sweet and sparkling white wines. The primary fruit aromas are nectarine, apricot, honey-crisp apple and pear, besides you’ll smell things like honeycomb or even to a chemical aroma similar to petrol/gas. Very high acid, almost to the level of a tart fruit juice like lemonade, usually a touch sweet.</string>
+			
+			<string>A light-bodied white wine from the Loire valley of France. Used to make everything from sparkling wines to well-balanced dessert wines. A versatile zesty white wine that pairs particularly well with Mediterranean food, sushi and even hearty meats like veal.</string>
+			
+			<string>A white wine grape variety which is a genetic mutation of Pinot Noir. Typified by almond aromas with a hint of spice. On the palate shows a range of apple flavors, usually at the floury and creamy end of the spectrum. Produced in crisp, dry styles that are much lighter in body.</string>
+			
+			<string>A golden-skinned grape used to make dry and sweet white wines, mostly in France and Australia. The primary fruit flavors are lemon, apple, pear and green papaya. Depending on where it is grown it can range from being a zesty, palate-cleansing to a rich, creamy, lemon-flavored wine. Grown in hot climates will contain more alcohol (12-14%), while that of cooler climates contains 10-12%.</string>
+			
+			<string>An aromatic grape variety known for producing textural white wines with strong stonefruit flavors. Can be very floral, showing lavender and pollen aromas that are quite honeyed in sweeter examples. Apricots are the variety’s classic flavor. In some wine regions, the variety is co-fermented with the red wine grape Syrah where it can contribute to the color and bouquet of the wine.</string>
+			
+			<string>A naturally sweet nectar-like dessert wine from Hungary. Pale lemon to deep amber in colour with grapes, dried apricots, pineapple and mango on the nose. Higher on sugar, higher on acidity. A very nice wine, thick, but reasonably balanced.</string>
+			
+			<string>An aromatic wine grape variety with a pink to red skin color, used in white wines. Has high natural sugar and the wines are white and usually off-dry, with a flamboyant bouquet of lychees. Similar to Muscat, it has higher alcohol, more striking aromatics and lower acidity, as well as omplex aromatics including ruby red grapefruit, rose petal, ginger and a smoky aroma close to burnt incense.</string>
+			
+			<string>A white wine grape, most commonly found in the Northern Rhône region. Possess good weight and structure, but often lack any depth of perfume and flavor, that's why often blended with Roussanne. Develops deep amber colors and nutty, orange-marmalade flavors, the best examples have a slightly earthy minerality, lifted by notes of honeysuckle and melon.</string>
+			
+			<string>A dry white Italian wine, principally around the city of Verona. Straw-yellow in colour with hint of green and has a violet (at times a hawthorn and elder) bouquet. Tastes delicate and light, with a gentle acidity and a bitter finish of almonds. One of Italian most exported white wine. Perfect as a meditation wine, to be drunk alone.</string>
 		</array>
 		<key>Foods</key>
 		<array>
-			<string>Chickens</string>
-			<string>Porks</string>
-			<string>Vanilla ice creams</string>
+			<string>Soft cheese, fish with herbs, chicken or turkey breasts, almonds.</string>
+			<string>Chicken, pork chop, white fish, sour cheese, casserole.</string>
+			<string>White fish and meat, semi-soft cheese, fresh vegetables.</string>
+			<string>Fish fillet, cashew nuts, crepes, smoked salmon, yellow rice.</string>
+			<string>Spicy food, less stinky soft cheese, dried fruit, roasted vegetables.</string>
+			<string>Mediterranean food, chicken, sushi, veal, brie cheese.</string>
+			<string>Chicken, tuna salad, caramelized pancakes, shrimps.</string>
+			<string>White meats/fish, milky cheese, best with sushi.</string>
+			<string>Grilled salmon, roasted sweet potato, orange cheesecake.</string>
+			<string>Chocolate cake/souflet, caramelized salmon, foie gras, blue cheese.</string>
+			<string>Poultry, pork, shrimp/crab, milky cheese, sweet vegetables.</string>
+			<string>Baked fish, seafood, Asian noodles, any cheese.</string>
+			<string>Gorgonzola cheese, dry cakes, shellfish, proscuitto.</string>
 		</array>
 		<key>Temperatures</key>
 		<array>
-			<string>20-25-30</string>
-			<string>Hot! Hot</string>
-			<string>Mildly warm. Bom-bom Mildly warm. Bom-bom Mildly warm. Bom-bom</string>
+			<string>9-11 degrees</string>
+			<string>8-11 degrees</string>
+			<string>7 degrees</string>
+			<string>10-13 degrees</string>
+			<string>6 degrees</string>
+			<string>8-11 degrees</string>
+			<string>Around 7 degrees</string>
+			<string>8-11 degrees</string>
+			<string>10 degrees</string>
+			<string>10-13 degrees</string>
+			<string>6 degrees</string>
+			<string>10-13 degrees</string>
+			<string>8-10 degrees</string>
 		</array>
 		<key>Images</key>
 		<array>
-			<string>wine2.jpg</string>
-			<string>wine3.jpg</string>
-			<string>wine1.jpg</string>
+			<string>wine26</string>
+			<string>wine33</string>
+			<string>wine12</string>
+			<string>wine65</string>
+			<string>wine57</string>
+			<string>wine45</string>
+			<string>wine44</string>
+			<string>wine39</string>
+			<string>wine11</string>
+			<string>wine22</string>
+			<string>wine36</string>
+			<string>wine14</string>
+			<string>wine76</string>
 		</array>
 	</dict>
 </plist>
