@@ -4,33 +4,65 @@
 	<dict>
 		<key>Names</key>
 		<array>
-			<string>Sparkling Rose</string>
-			<string>Grenada</string>
-			<string>Pink BLush</string>
+			<string>Champagne</string>
+			<string>Asti/Espumate</string>
+			<string>Prosecco</string>
+			<string>Lambrusco</string>
+			<string>Cremant</string>
+			<string>Cava</string>
+			<string>Trento DOC</string>
+			<string>Sparkling Shiraz</string>
 		</array>
 		<key>Details</key>
 		<array>
-			<string>Sparklig Rose Rose</string>
-			<string>PFFTS</string>
-			<string>SweetESTEST wine. GOod with fruits. Not german boay</string>
+			<string>A sparkling wine exclusively produced from grapes grown in the Champagne region of France. The primary grapes used are black Pinot noir and Pinot Meunier, and white Chardonnay. CO2 is created by the fermentation process in a bottle and with no means of escape, dissolves into the liquid (Champagne method). Can be white and rose.</string>
+			
+			<string>A sparkling white Italian wine. Made solely from the Moscato Bianco grape, it is sweet and low in alcohol (7-9%). The wine undergoes a secondary fermentation in bulk tanks, and is bottled under pressure (Charmat method). Dizzyingly fruity and evocative of perfectly ripe peaches and apricots, holds fresh, floral aromas. </string>
+			
+			<string>A white sparkling Italian wine. Meant to be enjoyed young and fresh, so buy the newest vintage. Aromatics are flowery and peachy with nuances of vanilla bean, even though it tastes dry (not sweet). Prosecco rosé comes from a touch of Pinot Noir, giving it peach and strawberry flavors. A very forgiving, food-friendly sparkling wine.</string>
+			
+			<string>A frothy, frizzante (slightly sparkling) red wine with fresh yeasty flavors and a slightly bitter finish. The wine undergoes a secondary fermentation in bulk tanks, and is bottled under pressure (Charmat method). Designed to be drunk young. </string>
+			
+			<string>White and rose sparkling wines of the Alsace region of France, called 'creamy' due to a less-bubbly style of sparkling wine. Produced by the fermentation process in a bottle and with no means of escape, dissolves into the liquid (Champagne method). Suggest zesty citrus fruit taste with a bit of residual sugar to round out the crisp acidity on the palate.</string>
+			
+			<string>A Spanish sparkling wine. Made the same way as Champagne is produced, but with different grapes. Can be brut, rose and aged. Characterized with faint floral aromatics, a lemony flavor with a slightly bitter finish that tastes similar to green almonds, or strawberry and raspberry aromas for pink Cava. </string>
+			
+			<string>An appellation for white and rosé sparkling wine made in Trentino, Italy. Made the same way as Champagne is produced. Distinguished by a delicate, rich bouquet, a dry, smooth, rounded and elegant flavor, and a straw-yellow color, usually 11-12% alcohol. Good as an aperitif.</string>
+			
+			<string>An Australian sparkling wine. Made in the same way as Champagne - bottle fermented, aged on lees, then liqueured and left to develop in the bottle, but made of quality red wines. A frothy liquid, vivid purple in color with violet and purple froth. Smells of blackcurrants, blackberries, chocolate, cherries, strawberries. Powerful fruity taste, dry yet seeming sweet, some acid and tannin on the finish.</string>
 		</array>
 		<key>Foods</key>
 		<array>
-			<string>Sparkling and turkey</string>
-			<string>Porks but no fillet</string>
-			<string>Chocolate ice creams</string>
+			<string>Salty appetizers (oysters, caviar, proscuitto), raviolli, brie/gouda cheese.</string>
+			<string>Orange sorbet, fruit tart, almonds, cheesecake.</string>
+			<string>Prosciutto, stuffed mushrooms, creamy sauces, almonds, seafood, Asian food.</string>
+			<string>Barbeque, bacon cheeseburger, hard aged cheese, peaches.</string>
+			<string>Thai food, oven-roasted salmon, green salad, walnuts .</string>
+			<string>Fried rich food, Spanish tacos, seafood, olves, nuts.</string>
+			<string>Fried prawns, escalopes, Italian food.</string>
+			<string>Traditional Christmas dishes, Chinese food, stinky cheese.</string>
 		</array>
 		<key>Temperatures</key>
 		<array>
-			<string>Sparkling-25-30-35</string>
-			<string>Hot! HotHot! Hot</string>
-			<string>Mildly warm. Bom-bom Mildly warm. Bom-bom Mildly w. Bom-bom Mildly w. Bom-bom Mildly warm. Bom-bom</string>
+			<string>4 to 9 degrees</string>
+			<string>4 to 9 degrees</string>
+			<string>4 to 7 degrees</string>
+			<string>13-16 degrees</string>
+			<string>8 to 10 degrees</string>
+			<string>7-8 degrees</string>
+			<string>8-12 degrees</string>
+			<string>10 degrees</string>
 		</array>
 		<key>Images</key>
 		<array>
-			<string>wine3.jpg</string>
-			<string>wine1.jpg</string>
-			<string>wine2.jpg</string>
+			<string>wine60</string>
+			<string>wine61</string>
+			<string>wine62</string>
+			<string>wine63</string>
+			<string>wine64</string>
+			<string>wine65</string>
+			<string>wine66</string>
+			<string>wine67</string>
 		</array>
 	</dict>
 </plist>
