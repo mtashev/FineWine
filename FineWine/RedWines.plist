@@ -1,36 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>Names</key>
-	<array>
-		<string>Pinot Gri</string>
-		<string>Merlot</string>
-		<string>Caberne</string>
-	</array>
-	<key>Details</key>
-	<array>
-		<string>Whatever wine Whatever wineWhatever wineWhatever wineWhatever wineWhatever wineWhatever wineWhatever wineWhatever wineWhatever wineWhatever wineWhatever wineWhatever wineWhatever wineWhatever wineWhatever wineWhatever wineWhatever wineWhatever wineWhatever wineWhatever wineWhatever wineWhatever wineWhatever wine	Whatever wine Whatever wine</string>
-		<string>Great one</string>
-		<string>Sweet wine. GOod with fruits.</string>
-	</array>
-	<key>Foods</key>
-	<array>
-		<string>Chicken PorkPorkPorkPorkPorkPorkPorkPorkPorkPorkPork</string>
-		<string>Pork</string>
-		<string>Vanilla ice cream</string>
-	</array>
-	<key>Temperatures</key>
-	<array>
-		<string>20-25</string>
-		<string>Hot!</string>
-		<string>Mildly warm</string>
-	</array>
-	<key>Images</key>
-	<array>
-		<string>wine2.jpg</string>
-		<string>wine3.jpg</string>
-		<string>wine1.jpg</string>
-	</array>
-</dict>
-</plist>
+	<dict>
+		<key>Names</key>
+		<array>
+			<string>Cabernet Sauvignon</string>
+			<string>Cabernet Franc</string>
+			<string>Merlot</string>
+			<string>Syrah / Shiraz</string>
+			<string>Pinot Noir</string>
+			<string>Malbec</string>
+			<string>Sangiovese</string>
+			<string>Carmenere</string>
+			<string>Zinfandel</string>
+			<string>Nebbiolo</string>
+			<string>Grenache</string>
+			<string>Mourvedre</string>
+			<string>Tempranillo</string>
+			<string>Gamay</string>
+			<string>Barbera</string>
+		</array>
+			<key>Details</key>
+			<array>
+				<string>The most famous red wine grape variety on Earth. Grown in a wide range of climates and regions throughout the world. A full-bodied red wine with dark fruit flavors and savory tastes from black pepper to bell pepper all wrapped together with a dash of vanilla. Tend to have a little bit less tannin and acidity but also have more alcohol, from 13.5-15.5% ABV.</string>
+				<string>Lighter than Cabernet Sauvignon, making a bright pale red wine with the aroma of red raspberries and cherries. Depending on the growing region, additional aromas can include tobacco, bell pepper, cassis, and violets. Young Cabernet Franc is an ideal red wine for summer. It is sufficiently fruity but has enough structure to stand up to the flavors of a barbecue.</string>
+				<string>A medium red wine made of a dark blue-colored wine grape variety. A range of fresh flavors such as plums, cherries, blueberries and blackberries mixed with cocoa and blackpepper tones, often dominate this type of red wine. The tannin levels are typically lower and the fruit flavors are typically forward. Fruity, soft and smooth, Merlot tastes great with food.</string>
+				<string>One of the darkest full-bodied red wines in the world, with medium tannin and acidicy. Aroma characters can range from violets to berries (usually dark as opposed to red), chocolate, espresso and a spicy peppery note in the aftertaste. Contains high amounts of health-invigorating antioxidants.</string>
+				<string>The most highly prized wine in the world, though a difficult variety to cultivate and transform into wine. Pale red in color, translucent and flavors are very subtle. Usually cranberry, cherry and raspberry flavor with a note of vanilla, clove, licorice, mushroom, wet leaves, tobacco and caramel. The only wine that goes with everything.</string>
+				<string>A full-bodied inky red intense wine referred as the iconic wine grape of Argentina. Known for its blackberry, pomengranate, plum and black cherry flavors and aroma nuances of milk chocolate, cocoa powder, violet flowers, leather and, depending on the amount of oak aging, a sweet tobacco finish. Due to its intense and rich flavor is said to be one of the most respected Souch America wines. </string>
+				<string>A red Italian wine grape variety. A bit of a chameleon, Sangiovese wines offer a wide range of tastes from very earthy and rustic to round and fruit-forward. Regardless of where it’s grown, cherry flavors with subtle notes of tomato are typical. Aromas reveal dried cherries, figs and roses. </string>
+				<string>One of the most ancient European varieties of red wine nowadays grown mostly in Chile. Rich in berry fruits and spice (blackberries and black pepper), with smooth, well-rounded tannins. A very pleasing and easy to drink varietal. </string>				<string>A robust light-bodied red wine. The grape's high sugar content can be fermented into levels of alcohol ranging from 14-17%. The primary flavors of Zinfandel are jam, blueberry, black pepper, cherry, plum, boysenberry, cranberry, and licorice followed by a tobacco-like smoky finish. Also higher alcohol adds an oily texture and bolder body.</string>
+				<string>A red Italian wine grape variety predominantly associated with the Piedmont region. The most full-bodied wine in the world with intense concentration and firm tannins. The flavor and aroma include dark fruit, primarily blackberry with loads of complex flavors including smoke, tar, licorice and rustic notes. </string>
+				<string>A red-wine grape grown extensively in France, Spain, the USA and Australia. It has a medium to full weight in taste, but has a deceptively lighter color and is semi-transulcent. Generally spicy, berry-flavored and soft on the palate with a relatively high alcohol content. Characteristic flavors on Grenache include red fruit flavors (raspberry and strawberry) with a subtle, white pepper spice note. </string>
+				<string>A full-bodied and rustic wine that originated in Spain. Mourvèdre is a prominent component in "GSM" (Grenache, Syrah, and Mourvedre) blends. The smell is a composition of dark fruit, flowers like violet and herbaceous aromas of black pepper, thyme, and red meat. Mourvedre taste really benefits from decanting. </string>
+				<string>A black grape variety widely grown to make full-bodied red wines in its native Spain. The flavor and taste are savory, that of leather along with cherries and tomato sauce with a mild and smooth finish. Resembles Cabernet Sauvignon and Sanginovese.</string>
+				<string>A light dry table wine of a dark-skinned grape variety that is also used for producing the famous French Beaujolais. Characteristic fruit aromas of Gamay wines are red cherries and strawberries, often with boiled candy and banana notes. Most liked and respected in Switzerland.</string>
+				<string>A red Italian wine grape variety, tastes both rich and light-bodied. It has dark staining pigments that dye the wine to near-black but the taste of Barbera is juicy and has notes of strawberry and sour cherry. Characterized with light tannin and high acidity.</string>
+			</array>
+			<key>Foods</key>
+			<array>
+				<string>Red meat, mashroom pizza, spicy stew.</string>
+				<string>Barbeque, roasted meat, pasta with tomato-based sauces, nachos.</string>
+				<string>Chicken and other light meats, light-spiced dark meats, lazagna. Doesn't pair with fish, vegetables and spicy dishes.</string>
+				<string>Anything from a blue cheese burger to barbeque, roasted vegetables, softer stinkier cheese, sausage pizza.</string>
+				<string>Salmon, trout, duck, mushroom risotto, comte cheese, white pizza.</string>
+				<string>Dark meat poltry and lean red meat, mashrooms, roasted vegetables, rich soft cheese, barbeque pizza.</string>
+				<string>Rich roasted meat, hard cheese, tomatoes, pepperoni pizza.</string>
+				<string>Red meats, corn-based dishes, Indian curry, Mexican mole.</string>
+				<string>Spiced barbeque dishes, curry, roasted tomato, red pepers, hawaiian pizza, apricot, peach.</string>
+				<string>Hearty red meats, heavy sauces, cheese pizza.</string>
+				<string>Spicy and herbal dishes, ethnic food, margherita pizza.</string>
+				<string>Rich meats: beef ribs, pork, barbeque, lamb, pork sausage and veal, wild rice, mashrooms, dishes with soy sauce.</string>
+				<string>Works well with all kinds of cuisine.</string>
+				<string>Roast turkey, grilled salmon.</string>
+				<string>Rich dark meats, mushrooms, herbs, blue cheese, root vegetables, tajarin pasta, bolognese sauce.</string>
+			</array>
+			<key>Temperatures</key>
+			<array>
+				<string>15-18 degrees</string>
+				<string>15-18 degrees</string>
+				<string>12-13 degrees</string>
+				<string>15-18 degrees</string>
+				<string>10-13 degrees</string>
+				<string>16-18 degrees</string>
+				<string>10-13 degrees</string>
+				<string>16-18 degrees</string>
+				<string>16-18 degrees</string>
+				<string>18-19 degrees</string>
+				<string>13-18 degrees</string>
+				<string>19-21 degrees</string>
+				<string>13-18 degrees</string>
+				<string>13-18 degrees</string>
+				<string>13-18 degrees</string>
+			</array>
+			<key>Images</key>
+			<array>
+				<string>wine1</string>
+				<string>wine2</string>
+				<string>wine3</string>
+				<string>wine4</string>
+				<string>wine5</string>
+				<string>wine6</string>
+				<string>wine7</string>
+				<string>wine8</string>
+				<string>wine9</string>
+				<string>wine1</string>
+				<string>wine11</string>
+				<string>wine12</string>
+				<string>wine13</string>
+				<string>wine14</string>
+				<string>wine15</string>
+			</array>
+		</dict>
+	</plist>

@@ -4,33 +4,71 @@
 	<dict>
 		<key>Names</key>
 		<array>
-			<string>Dessert Rose</string>
-			<string>Grenada</string>
-			<string>Pink BLush</string>
+			<string>Tokaji</string>
+			<string>Vintage Port</string>
+			<string>White Port</string>
+			<string>Ruby Port</string>
+			<string>Tawny Port</string>
+			<string>Muskat</string>
+			<string>Madeira</string>
+			<string>Marsala</string>
+			<string>Sherry</string>
 		</array>
 		<key>Details</key>
 		<array>
-			<string>Dessert Elina</string>
-			<string>PFFTS</string>
-			<string>SweetESTEST wine. GOod with fruits. Not german boay</string>
+			<string>A naturally sweet nectar-like dessert wine from Hungary. Pale lemon to deep amber in colour with grapes, dried apricots, pineapple and mango on the nose. Higher on sugar, higher on acidity. A very nice wine, thick, but reasonably balanced.</string>
+			
+			<string>A Portuguese fortified, typically sweet, red wine, often served as a dessert wine. Made entirely from the grapes of a declared vintage year. Renowned of its remarkable richness, concentration and firm tannic structure suggesting the flavor of red and black fruits. Perfect for classin cheese and wine combination.</string>
+			
+			<string>A sophisticated aperitif, made from white grape varieties in Portugal. Higher residual sugar levels are responsible for the sweetness and alcohol levels 2–3% lower than red-port styles. Offers complete fresh fruit flavours with an elegant, complex nuttiness and an appetisingly crisp dry finish. The perfect introduction to a relaxed meal.</string>
+			
+			<string>A bright red or deep ruby in color wine of Portuguese origin. Most Ruby Port is a blend of young wines (from multiple vintages). Youthful, powerful and fruit-forward full of intense red-berry fruit aromas. Full bodied on the palate, with solid but well integrated tannins, and a long rich fruity finish.</string>
+			
+			<string>A tawny-colored from the oxidation during their long maturation in casks wine of Portugal. Has a mellow, nutty, slightly woody, dried fruit character and a wonderfully opulent nutty, spicy flavour.</string>
+			
+			<string>A musky, fresh-grape flavored wine ranging from fine light whites to sweet dark versions (often fortified). The distinctive grapey aroma of Muscat is one of its chief properties, may be produced as dry, medium, sweet, sparkling or even dessert wine.</string>
+			
+			<string>A fortified Portuguese white wine made in the Madeira Islands. Usually an amber colored gem with caramel, nutty flavors. Perfect with sweet creamy desserts.</string>
+			
+			<string>A higher alcohol (17-20%) fortified wine of Sicilian origin. Usually a dark amber color with a rich, smoky flavor. Varies from dry wines which can be consumed on their own as an aperitif, to sweet wines more usually consumed with dessert.</string>
+			
+			<string>A fortified wine made from white grapes that are grown in Andalusia, Spain. </string>
 		</array>
 		<key>Foods</key>
 		<array>
-			<string>Dessert and turkey</string>
-			<string>Porks but no fillet</string>
-			<string>Chocolate ice creams</string>
+			<string>Chocolate cake/souflet, caramelized salmon, foie gras, blue cheese.</string>
+			<string>Mature cheese, fruit cake.</string>
+			<string>Marinated olives, roasted almonds, foie gras, crab cakes, smoked salmon.</string>
+			<string>Flavoured cheese, chocolate dessert, red berries, fillet steak.</string>
+			<string>Hard cheese, apple pie, crème brûlée, almond cake.</string>
+			<string>Fish fillet, cashew nuts, crepes, smoked salmon, yellow rice.</string>
+			<string>Salty foods, nuts, olives, fancy mushroom dishes, cheesecake, tiramisu.</string>
+			<string>Parmesan, Gorgonsola or Roquefort cheese, Italian cuisine, fruitcake, ice cream.</string>
+			<string>Olives, salted nuts, cured hams or cheeses, gazpacho, seafood.</string>
 		</array>
 		<key>Temperatures</key>
 		<array>
-			<string>Dessert-25-30-35</string>
-			<string>Hot! HotHot! Hot</string>
-			<string>Mildly warm. Bom-bom Mildly warm. Bom-bom Mildly w. Bom-bom Mildly w. Bom-bom Mildly warm. Bom-bom</string>
+			<string>10-13 degrees</string>
+			<string>16-18 degrees</string>
+			<string>12-13 degrees</string>
+			<string>12 degrees</string>
+			<string>13-16 degrees</string>
+			<string>10-13 degrees</string>
+			<string>10-12 degrees</string>
+			<string>Around 16 degrees</string>
+			<string>Chilled as you like it more.</string>
 		</array>
 		<key>Images</key>
 		<array>
-			<string>wine3.jpg</string>
-			<string>wine2.jpg</string>
-			<string>wine1.jpg</string>
+			<string>wine30</string>
+			<string>wine31</string>
+			<string>wine32</string>
+			<string>wine33</string>
+			<string>wine34</string>
+			<string>wine35</string>
+			<string>wine36</string>
+			<string>wine37</string>
+			<string>wine38</string>
 		</array>
 	</dict>
 </plist>

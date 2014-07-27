@@ -4,33 +4,88 @@
 	<dict>
 		<key>Names</key>
 		<array>
-			<string>Rose Rose</string>
-			<string>Grenada</string>
-			<string>Pink BLush</string>
+			<string>Syrah Rose</string>
+			<string>Pinot Noir Rose</string>
+			<string>Grenache Rose</string>
+			<string>Cabernet Sauvignon Rose</string>
+			<string>Cabernet Franc Rose</string>
+			<string>Sangiovese Rose</string>
+			<string>White Zinfandel</string>
+			<string>White Merlot</string>
+			<string>Mourvedre Rose</string>
+			<string>Gamay Rose</string>
+			<string>Blush wines</string>
+			<string>Provence rose</string>
 		</array>
 		<key>Details</key>
 		<array>
-			<string>Rose Rose Rose</string>
-			<string>PFFTS</string>
-			<string>SweetESTEST wine. GOod with fruits. Not german boay</string>
+			<string>A still rose wine made of Syrah grapes that are crushed, and the skin remains in contact with the grape juice for 2 to 3 days. Usually is of deeper colors of ruby and notes of white pepper, green olive, strawberry, cherry and peach skin. Has a much lighter taste that is similar to that of white wines: aromas of red fruit, blackcurrant and redcurrant, delicate floral notes of rose and grape fruit leaves a fresh finish with hints of strawberry. A strikingly aromatic wine that is very well-balanced and refreshing for summer.</string>
+			
+			<string>A dry, pale pink wine with subtle aroma, light body and savory finish. Delivers bright acidity and soft, light aromas of crabapple, watermelon, raspberries, strawberries, and wet stone. Earthy-but-elegant wine that is cool and crisp that better served chilled.</string>
+			
+			<string>A brilliant ruby red hue with notes of ripe strawberry, black fruit, cherry, licorice, orange, hibiscus, a hint of allspice and especially a beautiful oiliness. Has moderately high acidity, but quite a bit of color and body and fruit forward, perfumey aromatics and silky texture.</string>
+			
+			<string>A deep ruby red color with red wine-like flavors of green bell pepper, cherry sauce, black currant and pepper spice. Crisp, fragrant Rosé features fresh strawberry, rose and hibiscus aromas, dry finish and balanced acidity.</string>
+			
+			<string>A classic dry rosé of a medium salmon pink hue, presents a beautiful balance of fruit flavors, refreshing acidity, and a clean, crisp finish. Tastes as bright red fruits of cherry, watermelon, lime and raspberry which continue to a crisp, dry finish of minerals, white flowers and savory herbs. Perfect for spring holidays, very festive.</string>
+			
+			<string>A bright copper red color that sparkles in the light, dry crisp wine with rose bud and watermelon aromatics and notes of fresh strawberries, green melon, roses and yellow peach with balanced acidity and lingering raspberry notes on the finish. Definitely to be served cold.</string>
+			
+			<string>An ‘off-dry’ pink-colored blush wine with about 3-5 grams of residual sugar making it moderately sweet, soft and often low in alcohol. It offers flavors of strawberry, cotton candy, lemon and green melon with moderately high acidity.</string>
+			
+			<string>A light, fruity wine of a pale pink color. Offers the flavor of raspberries, ripe plum, blueberry, and hints of cranberry and an element of tannin that gives the wine bitterness. Perfect with sweeter and spicier food.</string>
+			
+			<string>A pale coral hue wine, rounder and fuller-bodied than many other Rosés. Mourvèdre aroma is floral with notes of violets and rose petals and on the palate, this grape can be full of red plums, cherries, dried herbs, smoke and even meat. Makes an excellent pairing at a Mediterranean dinner party and is really good on its own.</string>
+			
+			<string>Bright and fruity wine of a color of springtime roses. Offers delicate strawberry, raspberry and tart cherry aromas on the nose. Tastes light, crisp, and bone-dry on the palate.</string>
+			<string>A slightly sweet and paler than the usual rosé wine, often made of red grapes. Has amazing red-fruit flavors that explode on the palate with lovely balance and acidity. The perfect wine for sipping on the deck or patio.</string>
+			
+			<string>A pale pink rosé of a fresh, crisp, dry style produced in French wine region, Provence. Gives aromas of strawberry, fresh-cut watermelon, and rose petal, finishing with a distinctive, salty minerality on the palate.</string>
 		</array>
 		<key>Foods</key>
 		<array>
-			<string>Chickens and turkey</string>
-			<string>Porks but no fillet</string>
-			<string>Chocolate ice creams</string>
+			<string>Tapas, rich cheesy sandwiches, pepperoni pizza, seafood, spicy dishes.</string>
+			<string>Goat cheese salad, crab, fried oysters, pasta with mushroom, chicken with Indian spices.</string>
+			<string>Cooked shellfish, spiced tuna, cold chicken, burgers and barbecued ribs.</string>
+			<string>Grilled or broiled salmon, canneloni, pizza, omlettes.</string>
+			<string>Barbeque, pizza, sushi, fish, chicken, ham.</string>
+			<string>Chicken salad, salmon, bacon-wrapped beef, proscuitto, blue cheese.</string>
+			<string>Cream-based sauce with pasta, fish, pork, Thai food, fruit.</string>
+			<string>Spicy Mexican food, sweet and smoky glazed ham, red meat, pasta with tomato sauces.</string>
+			<string>Grilled lamb, slightly spicy food.</string>
+			<string>Grilled vegetable panini, charcuterie, summer fruit salad, sorbet.</string>
+			<string>Seafood, shellfish, goat cheese.</string>
+			<string>Almost any dish, even a burger.</string>
 		</array>
 		<key>Temperatures</key>
 		<array>
-			<string>20-25-30-35</string>
-			<string>Hot! HotHot! Hot</string>
-			<string>Mildly warm. Bom-bom Mildly warm. Bom-bom Mildly w. Bom-bom Mildly w. Bom-bom Mildly warm. Bom-bom</string>
+			<string>12-13 degrees</string>
+			<string>10-11 degrees</string>
+			<string>9-10 degrees. Not lower than 8.</string>
+			<string>9-12 degrees.</string>
+			<string>9-12 degrees.</string>
+			<string>9-10 degrees.</string>
+			<string>12 degrees.</string>
+			<string>11-12 degrees</string>
+			<string>9-12 degrees.</string>
+			<string>9-12 degrees.</string>
+			<string>9-12 degrees.</string>
+			<string>9-12 degrees.</string>
 		</array>
 		<key>Images</key>
 		<array>
-			<string>wine1.jpg</string>
-			<string>wine2.jpg</string>
-			<string>wine3.jpg</string>
+			<string>wine20</string>
+			<string>wine21</string>
+			<string>wine22</string>
+			<string>wine23</string>
+			<string>wine24</string>
+			<string>wine25</string>
+			<string>wine26</string>
+			<string>wine27</string>
+			<string>wine28</string>
+			<string>wine29</string>
+			<string>wine30</string>
+			<string>wine31</string>
 		</array>
 	</dict>
 </plist>
