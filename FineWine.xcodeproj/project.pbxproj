@@ -30,6 +30,7 @@
 		5A9F4B941983DF70003354BD /* TipDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9F4B931983DF70003354BD /* TipDetailViewController.m */; };
 		5A9F4B961983DFB6003354BD /* Food.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A9F4B951983DFB6003354BD /* Food.plist */; };
 		5A9F4B981983F5B3003354BD /* Tips.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A9F4B971983F5B3003354BD /* Tips.plist */; };
+		5A9F6BE619891EAF0087466D /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9F6BE519891EAF0087466D /* AboutViewController.m */; };
 		5AA4D90E197D13D000498967 /* RedWinesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA4D90D197D13D000498967 /* RedWinesDetailViewController.m */; };
 		5AA4D911197D185100498967 /* Wine.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA4D910197D185100498967 /* Wine.m */; };
 		5AA4D913197D364A00498967 /* RedWines.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5AA4D912197D364A00498967 /* RedWines.plist */; };
@@ -97,6 +98,8 @@
 		5A9F4B931983DF70003354BD /* TipDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipDetailViewController.m; sourceTree = "<group>"; };
 		5A9F4B951983DFB6003354BD /* Food.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Food.plist; sourceTree = "<group>"; };
 		5A9F4B971983F5B3003354BD /* Tips.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Tips.plist; sourceTree = "<group>"; };
+		5A9F6BE419891EAF0087466D /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		5A9F6BE519891EAF0087466D /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 		5AA4D90C197D13D000498967 /* RedWinesDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedWinesDetailViewController.h; sourceTree = "<group>"; };
 		5AA4D90D197D13D000498967 /* RedWinesDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedWinesDetailViewController.m; sourceTree = "<group>"; };
 		5AA4D90F197D185100498967 /* Wine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wine.h; sourceTree = "<group>"; };
@@ -288,6 +291,8 @@
 				5A9DF22319854EF500B32BF3 /* HomeViewController.m */,
 				5A9DF22519856E9600B32BF3 /* TypeViewController.h */,
 				5A9DF22619856E9600B32BF3 /* TypeViewController.m */,
+				5A9F6BE419891EAF0087466D /* AboutViewController.h */,
+				5A9F6BE519891EAF0087466D /* AboutViewController.m */,
 				5A9F4B8E1983DF56003354BD /* Tip */,
 				5A9F4B8D1983DF4A003354BD /* Food */,
 				5AF7B550198135AF00319B37 /* Red Wine */,
@@ -493,6 +498,7 @@
 				5A9F4B911983DF66003354BD /* TipViewController.m in Sources */,
 				5AF7B560198136B100319B37 /* SparklingWinesDetailViewController.m in Sources */,
 				5A9F4B941983DF70003354BD /* TipDetailViewController.m in Sources */,
+				5A9F6BE619891EAF0087466D /* AboutViewController.m in Sources */,
 				5AF7B54719812E9200319B37 /* WhiteWinesDetailViewController.m in Sources */,
 				5AA4D911197D185100498967 /* Wine.m in Sources */,
 				5AF7B5571981367400319B37 /* DessertWinesViewController.m in Sources */,
