@@ -31,6 +31,10 @@
 	self.detailsTextView.text = self.tip.tipDetails;
 	self.detailsTextView.editable = NO;
 	self.imageView.image = [UIImage imageNamed:self.tip.tipImage];
+	
+	self.detailsTextView.backgroundColor = [UIColor colorWithRed:204 green:204 blue:204 alpha:0.8f];
+	self.detailsLabel.text = @"Details";
+	self.detailsLabel.backgroundColor = [UIColor colorWithRed:204 green:204 blue:204 alpha:0.8f];
 }
 
 @end

@@ -13,6 +13,7 @@
 
 @property (strong, nonatomic) IBOutlet UIImageView *imageView;
 @property (strong, nonatomic) IBOutlet UITextView *detailsTextView;
+@property (strong, nonatomic) IBOutlet UILabel *detailsLabel;
 
 @property (strong, nonatomic) Food *food;
 

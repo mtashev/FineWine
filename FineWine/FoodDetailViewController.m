@@ -32,6 +32,9 @@
 	self.detailsTextView.text = self.food.foodDetails;
 	self.detailsTextView.editable = NO;
 	
+	self.detailsTextView.backgroundColor = [UIColor colorWithRed:204 green:204 blue:204 alpha:0.8f];
+	self.detailsLabel.text = @"Details";
+	self.detailsLabel.backgroundColor = [UIColor colorWithRed:204 green:204 blue:204 alpha:0.8f];
 }
 
 @end
