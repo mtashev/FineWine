@@ -26,24 +26,20 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+	
+	self.detailsTextView.backgroundColor = [UIColor colorWithRed:204 green:204 blue:204 alpha:0.8f];
+	self.foodTextView.backgroundColor = [UIColor colorWithRed:204 green:204 blue:204 alpha:0.8f];
+	self.temperatureTextView.backgroundColor = [UIColor colorWithRed:204 green:204 blue:204 alpha:0.8f];
+	
+	self.detailsLabel.text = @"Details";
+	self.detailsLabel.backgroundColor = [UIColor colorWithRed:204 green:204 blue:204 alpha:0.8f];
+	
+	self.pairLabel.text = @"Pair with food";
+	self.pairLabel.backgroundColor = [UIColor colorWithRed:204 green:204 blue:204 alpha:0.8f];
+	
+	self.temperatureLabel.text = @"Recommended serving temperature";
+	self.temperatureLabel.backgroundColor = [UIColor colorWithRed:204 green:204 blue:204 alpha:0.8f];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

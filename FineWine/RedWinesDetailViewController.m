@@ -39,6 +39,19 @@
 	self.temperatureTextView.editable = NO;
 	self.foodTextView.text = self.wine.wineFood;
 	self.foodTextView.editable = NO;
+	
+	self.detailsTextView.backgroundColor = [UIColor colorWithRed:204 green:204 blue:204 alpha:0.8f];
+	self.foodTextView.backgroundColor = [UIColor colorWithRed:204 green:204 blue:204 alpha:0.8f];
+	self.temperatureTextView.backgroundColor = [UIColor colorWithRed:204 green:204 blue:204 alpha:0.8f];
+	
+	self.detailsLabel.text = @"Details";
+	self.detailsLabel.backgroundColor = [UIColor colorWithRed:204 green:204 blue:204 alpha:0.8f];
+	
+	self.pairLabel.text = @"Pair with food";
+	self.pairLabel.backgroundColor = [UIColor colorWithRed:204 green:204 blue:204 alpha:0.8f];
+	
+	self.temperatureLabel.text = @"Recommended serving temperature";
+	self.temperatureLabel.backgroundColor = [UIColor colorWithRed:204 green:204 blue:204 alpha:0.8f];
 }
 
 @end

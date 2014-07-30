@@ -10,4 +10,8 @@
 
 @interface WhiteWinesDetailViewController : RedWinesDetailViewController
 
+@property (strong, nonatomic) IBOutlet UILabel *detailsLabel;
+@property (strong, nonatomic) IBOutlet UILabel *pairLabel;
+@property (strong, nonatomic) IBOutlet UILabel *temperatureLabel;
+
 @end

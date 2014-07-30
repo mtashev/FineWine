@@ -18,6 +18,11 @@
 @property (strong, nonatomic) IBOutlet UITextView *temperatureTextView;
 @property (strong, nonatomic) IBOutlet UITextView *foodTextView;
 
+@property (strong, nonatomic) IBOutlet UILabel *detailsLabel;
+@property (strong, nonatomic) IBOutlet UILabel *pairLabel;
+@property (strong, nonatomic) IBOutlet UILabel *temperatureLabel;
+
+
 @property (strong, nonatomic) Wine *wine;
 
 @end
