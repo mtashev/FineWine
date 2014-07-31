@@ -16,9 +16,9 @@
 	</array>
 	<key>Images</key>
 	<array>
-		<string>wine1.jpg</string>
-		<string>wine2.jpg</string>
-		<string>wine3.jpg</string>
+		<string>wine1</string>
+		<string>wine2</string>
+		<string>wine3</string>
 	</array>
 </dict>
 </plist>

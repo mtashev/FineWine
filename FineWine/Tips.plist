@@ -4,21 +4,39 @@
 	<dict>
 		<key>Names</key>
 		<array>
-			<string>How to open a bottle</string>
-			<string>How to look at wine</string>
-			<string>How to break the cork. Recommended tip! Serioulsy man</string>
+			<string>How to serve Icewine</string>
+			<string>Decanting</string>
+			<string>How to store wine</string>
+			<string>Types of wine glasses</string>
+			<string>Cooking with wine</string>
+			<string>How to open a bottle of wine</string>
+			<string>How to saber champagne</string>
 		</array>
 		<key>Details</key>
 		<array>
-			<string>Get your shit together. You don't know how to open a bottle ? really?</string>
-			<string>Look at it. Or stare.. you know.</string>
-			<string>Use a stupid bottle opener.</string>
+			<string>Chilled in small quantities after dinner. Goes great with fruits, cheese, nuts, and even dark chocolate. The rule is to serve this rich, sweet wine with a dessert that is a bit lighter and less sweet, or with something savoury and full-flavoured for balance. Icewine also makes amazing, if somewhat pricey, wine cocktails, which is a great way to use up any leftovers from the night before. Icewine Martini's are always a hit!</string>
+			
+			<string>Decanting is used for old and young wines. For old wines decanting separates the sediment from the wine. For young wines, which are typically high in tannins, decanting allows the wine to breath, awakening the aromas, and softening the tannins. Typically you want to decant between 30min-2 hours. Lighter bodied wines like Gamay, don't need to decant as long, where a full bodied young Cabernet Sauvignon might need a full 2 hours. But like with almost everything involving wine its all a matter of personal preference. Good candidates for decanting are most Italian wines, Bordeaux, Syrah, Malbec and Cabernet Sauvignon. How to decant? Just pour the wine into the decanter and let it sit there for your preffered amount of time.</string>
+			
+			<string>Keep it in a cool and dark place. Believe it or not UV light rays can cause the wine to change its smell in a negative way. That's why most bottles are dark. The ideal temperature is about 12-13 degrees. Although it's not a problem for white wines to be in the fridge, it's a good practice to take them out 15-30 minutes before serving. If you keep red wines at room temperature you might want to do the reverse - get the wine into the fridge for half an hour to an hour so that it drops the temperature. You know that wine breaths, so it's recommended that you store the bottles away from anything with a very strong smell. Before opening lay the bottle on its side so that the cork won't dry out. After opening the bottle most wines are good for another few days so put the cork back on get them back into cool, dark place. Another thing: don't overthink the humidity percentage. If you store a bottle at home for a few days/weeks it won't affect your wine. Lastly - avoid big, frequent temperature swings.</string>
+			
+			<string>There are 4 basic wine glasses. For red,white, sparkling and dessert wine. A red wine glass bowl will be fuller and rounder with a larger opening. The more generous, the better, to allow for a third fill and the rest of the glass permitting aeration. For example there are Bordeaux and Burgundy glasses. Just get one or the other. Although there is a subtle difference, they are both suitable for red wines. A white wine glass bowl will be more U shaped and upright allowing the aromas to be released while also maintaining a cooler temperature. A sparkling wine glass (or flute) will be upright and more narrow to retain the carbonation and capture the flavor in the beverage. A dessert wine glass should be smaller to direct the wine to the back of the mouth so the sweetness doesn't overwhelm. Dessert wines generally have a higher alcohol content, making the small glass perfect for a smaller serving.</string>
+			
+			<string>For a starter you will want to avoid wines labeled "cooking wines" as they probably are not very good for drinking anyways and often contain more salt than you would expect. Keep in mind that cooking doesn't require large quantities of wine, therefore you will have some wine left to drink, and  you want to enjoy that. Add the wine gradually so that the taste of wine doesn't overtake the taste of the dish itself. Dry white wine is a really good pick as it doesn't add sweetness to your food. Go ahead and check wine pairing section to find out what is a good fit for your meal. Sweet wines like sherry add a nice flavour to baked desserts, so you might want to give this a try.</string>
+			
+			<string>You don't need fancy tools, just get yourself a standard T-shaped corkscrew. First cut the foil just below the lip of the bottle. Position the tip of the corkscrew in the center of the cork and begin twisting. Do that until one curl remains. Next, make sure you have a firm grip of the bottle and start pulling the cork out of the bottle. When you reach the end you might want to move the cork left and right, so that it comes out easy and no wine is spilled. Easy!</string>
+			
+			<string>Get yourself a big, big knife or a sword. The bigger, the more attractive the opening will be. Use cold champagne or sparkling wine. Before the saber, remove the foil and the capsule. Place one hand at the bottom of the bottle and hold it at around 45 degree angle pointing upwards ofcourse. Put the saber/sword at the glass base (middle of the bottle, end of the neck) and swiftly swing up the bottle in one quick motion. Enjoy the applause after this entertaining opening.</string>
 		</array>
 		<key>Images</key>
 		<array>
-			<string>wine1.jpg</string>
-			<string>wine2.jpg</string>
-			<string>wine3.jpg</string>
+			<string>wine35</string>
+			<string>food12</string>
+			<string>wine38</string>
+			<string>wine69</string>
+			<string>food7</string>
+			<string>home</string>
+			<string>wine72</string>
 		</array>
 	</dict>
 </plist>
