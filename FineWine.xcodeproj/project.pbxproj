@@ -34,8 +34,6 @@
 		5AA4D90E197D13D000498967 /* RedWinesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA4D90D197D13D000498967 /* RedWinesDetailViewController.m */; };
 		5AA4D911197D185100498967 /* Wine.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA4D910197D185100498967 /* Wine.m */; };
 		5AA4D913197D364A00498967 /* RedWines.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5AA4D912197D364A00498967 /* RedWines.plist */; };
-		5AE410CC196EBF6D0082A127 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE410CB196EBF6D0082A127 /* CoreData.framework */; };
-		5AE410CF196EBF890082A127 /* FineWine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5AE410CD196EBF890082A127 /* FineWine.xcdatamodeld */; };
 		5AE6B3FB197AAF17003065D8 /* RedWinesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6B3FA197AAF17003065D8 /* RedWinesViewController.m */; };
 		5AE6B400197ABDAF003065D8 /* CustomTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6B3FF197ABDAF003065D8 /* CustomTableCell.m */; };
 		5AF7B54119812D4100319B37 /* WhiteWines.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5AF7B54019812D4100319B37 /* WhiteWines.plist */; };
@@ -106,7 +104,6 @@
 		5AA4D910197D185100498967 /* Wine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wine.m; sourceTree = "<group>"; };
 		5AA4D912197D364A00498967 /* RedWines.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RedWines.plist; sourceTree = "<group>"; };
 		5AE410CB196EBF6D0082A127 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		5AE410CE196EBF890082A127 /* FineWine.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FineWine.xcdatamodel; sourceTree = "<group>"; };
 		5AE6B3F9197AAF17003065D8 /* RedWinesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RedWinesViewController.h; path = FineWine/RedWinesViewController.h; sourceTree = SOURCE_ROOT; };
 		5AE6B3FA197AAF17003065D8 /* RedWinesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RedWinesViewController.m; path = FineWine/RedWinesViewController.m; sourceTree = SOURCE_ROOT; };
 		5AE6B3FE197ABDAF003065D8 /* CustomTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableCell.h; sourceTree = "<group>"; };
@@ -138,7 +135,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AE410CC196EBF6D0082A127 /* CoreData.framework in Frameworks */,
 				5A2F2C2D1966B35000E80DFC /* CoreGraphics.framework in Frameworks */,
 				5A2F2C2F1966B35000E80DFC /* UIKit.framework in Frameworks */,
 				5A2F2C2B1966B35000E80DFC /* Foundation.framework in Frameworks */,
@@ -316,7 +312,6 @@
 				5A9F4B801983DDD0003354BD /* Tip list */,
 				5A9F4B7F1983DDCA003354BD /* Food list */,
 				5A9F4B7E1983DDB9003354BD /* Wine lists */,
-				5AE410CD196EBF890082A127 /* FineWine.xcdatamodeld */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -491,7 +486,6 @@
 				5AF7B55A1981368800319B37 /* DessertWinesDetailViewController.m in Sources */,
 				5A9F4B831983DE15003354BD /* Food.m in Sources */,
 				5AF7B55D1981369F00319B37 /* SparklingWinesViewController.m in Sources */,
-				5AE410CF196EBF890082A127 /* FineWine.xcdatamodeld in Sources */,
 				5AE6B3FB197AAF17003065D8 /* RedWinesViewController.m in Sources */,
 				5A9DF22719856E9600B32BF3 /* TypeViewController.m in Sources */,
 				5A9F4B861983DE72003354BD /* Tip.m in Sources */,
@@ -722,19 +716,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		5AE410CD196EBF890082A127 /* FineWine.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				5AE410CE196EBF890082A127 /* FineWine.xcdatamodel */,
-			);
-			currentVersion = 5AE410CE196EBF890082A127 /* FineWine.xcdatamodel */;
-			path = FineWine.xcdatamodeld;
-			sourceTree = SOURCE_ROOT;
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 5A2F2C1F1966B35000E80DFC /* Project object */;
 }
