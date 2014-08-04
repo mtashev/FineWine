@@ -1,24 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>Names</key>
-	<array>
-		<string>Chicken</string>
-		<string>Pork</string>
-		<string>Fish</string>
-	</array>
-	<key>Details</key>
-	<array>
-		<string>Drink white wine with this. Prefferably.</string>
-		<string>Red. Syrah.</string>
-		<string>White. Tokaji.</string>
-	</array>
-	<key>Images</key>
-	<array>
-		<string>wine1</string>
-		<string>wine2</string>
-		<string>wine3</string>
-	</array>
-</dict>
+	<dict>
+		<key>Names</key>
+		<array>
+			<string>Chicken</string>
+			<string>Beef</string>
+			<string>Pork</string>
+			<string>Fish</string>
+			<string>Cheese</string>
+			<string>Pasta</string>
+			<string>Pizza</string>
+			<string>Salad</string>
+			<string>Desserts</string>
+		</array>
+		<key>Details</key>
+		<array>
+			<string>Chicken is quite flexible with wines. A classic roasted chicken pairs as well with a full-bodied red, as with a fruity rose, or a dry white. Try to match the intensity of the dish with the intensity of the wine taste - lighter meat pairs with a lighter wine. Consider the ingredients that accompany the chicken. Rich dishes with cream sauces pair well with Chardonnay, blended Marsanne or Roussanne. Sauvignon Blanc is perfect for white meats with herbal spices. Dry rosé wine is often an even better choice than white or red thanks to to its medium-bodied nature. A sweeter rose will go great with sweeter sauces/fruit on chicken. For salty, spicy, roasted or fried chicken choose a savory red wine, like Merlot or Syrah, also wines like Zinfandel or Grenache are perfect for holiday fiests.	Curry will go well with a fruity Rose, an off-dry Riesling, a Pinot Gris or a sweeter Muscat, even a classic Chardonnay. If you think of red wines with curry, go for those with less tannin and lower alcohol - juicy Syrah, Carmener, or Pinotage.
+			</string>
+			<string>The classic wine match to beef is a red wine. Choose a full-flavored wine to keep up with thick beef, tannins will help to balance the fat in the dish. Think Cabernet Sauvignon, Merlot, Syrah or red Zinfandel. If you usually prefer dry white wines, you will better like Pinot Noir or Gamay wines from red ones. If you like sweeter wine, you might enjoy a White Zinfandel. Young red wines suit a rare-cooked beef. With well aged reds the beef needs to be cooked a bit more than usual. Veal is better paired with Pinot Noir or Syrah. If you serve Sparkling wines, a Sparkling Syrah is your best choice. A dry Gewurtztraminer or Riesling will be a good pair to beef cooked by Eastern recipes, but overall whites are not a very good match. </string>
+			<string>Pork is a much more difficult match, and is often cooked with spices that are not wine friendly. The best bet is a younger low-tannin wine with acidity and fruit to match the flavor of the dish. More delicate roast pork suits best light to medium-bodied reds. For those who prefer white wines, a Riesling would go well with roasted pork served cold (with vegetables but not tomatoes on a side) or sweet-and-sour dish. Pork with creamy mushroom sauce will match with whites as well. Barbeque goes well with juicy reds like Carmener, Syrah or Zinfandel. With a simple cooked pork a lighter Chardonnay might pair well, but in most cases you'd better choose a red one.</string>
+			<string>The general rule is white wine pairs well with most fish. For mild flavored white fish choose zesty and refreshing whites to balance the delicate fish flavor: Sauvignon Blanc, Pinot Gris, Cava, Chardonnay, wines of Portugal. For firmer and thicker fish think medium to rich full-bodied whites with high aromatics (classic Chardonnay and Sauvignon Blanc, as well as Semillon, Chenin Blanc, Riesling, Pinot Gris and Soave). Rich meaty fish (salmon) is easiest to pair: rich whites with lots of flavor, sparkiling, rosé and even some of the reds: Chardonnay, Viognier, Dry Lambrusco, Champagne, Dry Rosé, White Pinot Noir, Soave.  Strongly flavored salty fish pairs with Champagne, Dry Lambrusco/Rose/Riesling, Cava, Nebbiolo, Pinot Noir or Grenache Blanc.</string>
+			<string>When pairing wine and cheese first rule is regional matches: French wines with French cheeses, very easy. Then try a contrast match: softer cheese with bolder wines, harder cheese with lighter ones, the main idea is to compliment a more powerful half of the pair. Blue cheese is for dessert wines, salty and sweet match really good. Hard and flavored cheese requires same flavors from wines, so Cabernet Sauvignon, Merlot, Zinfandel, Sauvignon Blanc, Chenin Blanc would be suitable. Camembert suits Champagne, and with fresh, milky and/or spreadable cheeses whites are very good, from red ones Pinot Gris is probably best.</string>
+			<string>Pasta is a blank-canvas meal. It gets all its flavor from its sauces, so the ingredients and spices to it should determine the choice of wine. Tomato sauce pasta (marinara) pairs with a fruity Chianti, if you prefer reds - a lush plum-and-caramel Merlot or a sour cherry flavored Sangiovese. Pasta with white sauce begs for dry and crispy white wines: Pinot Gris, Riesling or Chardonnay will match. Same goes for pasta with pesto or basil and spicy sauces, when you can also try Sauvignon Blanc. Meat sauce pasta pairs best with red wines like Syrah, Cabernet Sauvignon or Zinfandel. As seafood itself, pasta with seafood sauce suits best with white wines. Chardonnay, Pinot Gris or Viognier are a great match.</string>
+			<string>For classic cheese pizza its red sauce becomes a guide for a wine choice, you will need more acidicy in that case, which can be found in Grenache, Syrah and Mouvedre and the blend of them. Pepperoni is a very hot and strong flavor, so you need a strong wine to pair it. Sangiovese is a usual choice, Cabernet Franc and basically a red wine with intense aroma and flavors. Margherita is quite light-flavored pizza with herbal spices and mozarella, a dry Rose would be perfect, Grenache is the option among the reds - you want a ligher reds with this pizza anyway. For sausage/ham pizzas it's best to have a full-bodied red wine with their intense dark fruit flavors, choose Syrah or Pinotage. White pizza, as creamy pasta, will pair well with white wines, but a red Pinot Noir might a wonderful choice as well.</string>
+			<string>Traditionally salad is considered "unfriendly" to wine due to acidic dressings and raw greens. As with any food and wine matching, it is crucial to think about the relative weight of each part of the pair. Also it's important to have less vinegar and acids in general and more bridge ingredients to rely on. As a rule, for herbs Sauvignon Blanc, Cabernet and Merlot are the match. Greens with spices pair with Zinfandel or Syrah. For meats, poultry and salmon in salads same rules apply as for the aforementioned meat itself.</string>
+			<string>There are three factors to consider: acidity (an acidic wine may pair best with a fruit dish, which also has natural acidity), intensity (the more intense the flavors of a dessert, the more intense the wine), and sweetness (a dessert wine should be sweeter than the dessert itself). Creamy and buttery desserts pair best with white wines and sparkling wines like Asti. Desserts with light-colored fruit (kiwi, apples) and cinnamon pair well with white wines and pink champagne. Caramel and chocolate go well with sweet red wines and Port (which is a classic pair to chocolate). And an obvious choice for a dessert would be a sweet dessert wine, like Muscat, Tokaji or Port. Consider a white Zinfandel, a sparkling Syrah, and crispy Riesling for fruits.</string>
+		</array>
+		<key>Images</key>
+		<array>
+			<string>food14</string>
+			<string>food13</string>
+			<string>food3</string>
+			<string>food15</string>
+			<string>food10</string>
+			<string>food8</string>
+			<string>food16</string>
+			<string>food9</string>
+			<string>food11</string>
+		</array>
+	</dict>
 </plist>
