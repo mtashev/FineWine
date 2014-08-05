@@ -126,7 +126,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="profile" translatesAutoresizingMaskIntoConstraints="NO" id="Q29-NS-TYB">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="profile@2x" translatesAutoresizingMaskIntoConstraints="NO" id="Q29-NS-TYB">
                                 <rect key="frame" x="116" y="78" width="88" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1224,7 +1224,7 @@
     </scenes>
     <resources>
         <image name="home1" width="640" height="1136"/>
-        <image name="profile" width="88" height="88"/>
+        <image name="profile@2x" width="44" height="44"/>
         <image name="type1" width="640" height="1136"/>
         <image name="wine16" width="640" height="1136"/>
         <image name="wine20" width="640" height="1136"/>
