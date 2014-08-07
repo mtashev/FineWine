@@ -1,4 +1,4 @@
-FineWine
+FineWines
 ========
 This is an informational application for wine lovers.
 
