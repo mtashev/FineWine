@@ -12,5 +12,6 @@ Screenshots:
 
 <img src="http://i.imgur.com/oaZzuOQ.png" />
 <img src="http://i.imgur.com/wi1GCmX.png" />
+<br />
 <img src="http://i.imgur.com/4fYXlwY.png" />
 <img src="http://i.imgur.com/B4CChOS.png" />
