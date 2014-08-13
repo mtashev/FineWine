@@ -4,7 +4,8 @@ This is an informational application for wine lovers.
 
 Current version is 1.0.
 
-<a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=906687659&mt=8">Check it out in iTunes</>
+<a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=906687659&mt=8">Check it out in iTunes</a>
+
 <a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=906687659&mt=8#">or dowlnoad it in App Store</a>
 
 
